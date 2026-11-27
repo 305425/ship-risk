@@ -1,0 +1,4 @@
+# Sourced by the nginx entrypoint before templates are rendered.
+# Basic-auth credential for /mlflow/: user "admin", password = API_KEY.
+MLFLOW_BASIC=$(printf 'admin:%s' "${API_KEY:-}" | base64 | tr -d '\n')
+export MLFLOW_BASIC

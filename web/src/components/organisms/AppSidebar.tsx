@@ -15,7 +15,7 @@ const monitors = [
     external: true,
   },
   {
-    href: "http://localhost:5000/#/experiments/1",
+    href: "/mlflow/#/experiments/1",
     label: "MLflow",
     hint: "Model versions",
     external: true,

@@ -46,11 +46,17 @@ services:
       postgres: { condition: service_healthy }
       qdrant: { condition: service_started }
 
+  mlflow:
+    build: ./api
+    command: ["mlflow", "server", "--backend-store-uri", "sqlite:////app/mlflow/mlflow.db", "--host", "0.0.0.0", "--port", "5000", "--static-prefix", "/mlflow"]
+    volumes: [mlflow_data:/app/mlflow]
+
   web:
     build: ./web
     environment:
       SERVICE_FQDN_WEB_80: ""
-    depends_on: [api]
+      API_KEY: ${API_KEY:?set API_KEY}
+    depends_on: [api, mlflow]
 
 volumes:
   pg_data:
