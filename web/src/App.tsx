@@ -4,6 +4,7 @@ import { ApiError } from "@/api/client";
 import { AppShell } from "@/components/templates";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { LandingPage } from "@/pages/LandingPage";
 import { FleetPage } from "@/pages/FleetPage";
 import { NotFoundPage } from "@/pages/NotFoundPage";
 import { UploadPage } from "@/pages/UploadPage";
@@ -36,10 +37,11 @@ function Root() {
 }
 
 const router = createBrowserRouter([
+  { path: "/", element: <LandingPage /> },
   {
     element: <Root />,
     children: [
-      { index: true, element: <FleetPage />, handle: { crumb: "Fleet risk" } },
+      { path: "fleet", element: <FleetPage />, handle: { crumb: "Fleet risk" } },
       { path: "vessels/:vesselId", element: <VesselPage />, handle: { crumb: "Vessel report" } },
       { path: "upload", element: <UploadPage />, handle: { crumb: "Data upload" } },
       { path: "validation", element: <ValidationPage />, handle: { crumb: "Validation" } },

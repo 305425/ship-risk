@@ -9,7 +9,7 @@ export function NotFoundPage() {
       icon={Compass}
       title="Off the chart"
       description="This page doesn't exist."
-      action={<Button asChild><Link to="/">Back to fleet</Link></Button>}
+      action={<Button asChild><Link to="/fleet">Back to fleet</Link></Button>}
       className="mt-16"
     />
   );

@@ -12,7 +12,7 @@ import { formatDate } from "@/lib/domain";
 import { cn } from "@/lib/utils";
 
 const mobileNav = [
-  { to: "/", label: "Fleet risk", icon: LayoutDashboard, end: true },
+  { to: "/fleet", label: "Fleet risk", icon: LayoutDashboard, end: true },
   { to: "/upload", label: "Data upload", icon: UploadCloud },
   { to: "/validation", label: "Validation", icon: FlaskConical },
 ];

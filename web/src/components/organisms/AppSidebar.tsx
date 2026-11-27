@@ -31,7 +31,7 @@ const monitors = [
 const SIDEBAR_KEY = "esm.shiprisk.sidebarCollapsed";
 
 const nav: { to: string; label: string; icon: LucideIcon; end?: boolean }[] = [
-  { to: "/", label: "Fleet risk", icon: LayoutDashboard, end: true },
+  { to: "/fleet", label: "Fleet risk", icon: LayoutDashboard, end: true },
   { to: "/upload", label: "Data upload", icon: UploadCloud },
   { to: "/validation", label: "Validation", icon: FlaskConical },
 ];

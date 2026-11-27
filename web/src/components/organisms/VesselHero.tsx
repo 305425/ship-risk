@@ -16,7 +16,7 @@ export function VesselHero({ risk, rank, fleetSize }: { risk: VesselRisk; rank?:
       <div className="absolute inset-x-0 top-0 h-1 bg-silver" />
       <div className="relative grid gap-6 p-6 md:grid-cols-[1fr_auto] md:p-8">
         <div className="space-y-5">
-          <Link to="/" className="inline-flex items-center gap-1.5 text-xs text-white/60 hover:text-white">
+          <Link to="/fleet" className="inline-flex items-center gap-1.5 text-xs text-white/60 hover:text-white">
             <ArrowLeft className="size-3.5" /> Fleet ranking
           </Link>
           <div className="space-y-2">
