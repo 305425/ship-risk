@@ -5,6 +5,8 @@ import { useActiveRanking, useHealth } from "@/api/hooks";
 import { BrandLogo, Pennant, SilverRule, StatusDot } from "@/components/atoms";
 import { bandStyle } from "@/lib/domain";
 import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { useApiKeyDialog } from "@/providers/ApiKeyProvider";
 
 const monitors = [
@@ -157,6 +159,7 @@ function useCollapsed() {
 export function AppSidebar() {
   const { open, user } = useApiKeyDialog();
   const { collapsed, toggle } = useCollapsed();
+  const [confirmOut, setConfirmOut] = useState(false);
   const initial = (user || "?").slice(0, 1).toUpperCase();
   return (
     <aside
@@ -212,7 +215,7 @@ export function AppSidebar() {
         <SystemStatus compact={collapsed} />
         <button
           type="button"
-          onClick={open}
+          onClick={() => setConfirmOut(true)}
           title={user ? `Sign out ${user}` : "Sign out"}
           className={cn(
             "flex w-full items-center rounded-md py-2 text-left text-[13px] text-white/70 transition-colors hover:bg-white/[0.07] hover:text-white",
@@ -226,6 +229,21 @@ export function AppSidebar() {
           {collapsed ? null : <LogOut className="size-3.5" />}
         </button>
       </div>
+
+      <Dialog open={confirmOut} onOpenChange={setConfirmOut}>
+        <DialogContent className="sm:max-w-sm">
+          <DialogHeader>
+            <DialogTitle>Sign out?</DialogTitle>
+            <DialogDescription>
+              You will need to sign in again to open the dashboard, the fleet assistant and MLflow.
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setConfirmOut(false)}>Cancel</Button>
+            <Button onClick={open}>Sign out</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
 
       <button
         type="button"

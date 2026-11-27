@@ -16,7 +16,7 @@ export function LoginPage() {
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
-  if (session.apiKey()) return <Navigate to={from} replace />;
+  if (session.isSignedIn()) return <Navigate to={from} replace />;
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();

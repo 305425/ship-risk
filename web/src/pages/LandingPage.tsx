@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+import { session } from "@/api/client";
 import { cn } from "@/lib/utils";
 
 type Band = "High" | "Medium" | "Low";
@@ -52,6 +53,9 @@ const h2 = "font-heading text-[clamp(30px,3.4vw,40px)] leading-[1.1] font-bold t
 const container = "mx-auto w-full max-w-[1200px] px-6";
 
 export function LandingPage() {
+  const signedIn = session.isSignedIn();
+  const cta = signedIn ? "Go to dashboard" : "Sign in";
+  const ctaTo = signedIn ? "/fleet" : "/login";
   return (
     <div className="flex min-h-screen flex-col bg-background text-foreground">
       <header className="sticky top-0 z-20 border-b bg-white/95 backdrop-blur">
@@ -62,10 +66,11 @@ export function LandingPage() {
             <a href="#features" className="hover:text-navy-900">What you get</a>
             <a href="#validation" className="hover:text-navy-900">Validation</a>
             <Link
-              to="/fleet"
+              to={ctaTo}
+              state={{ from: "/fleet" }}
               className="inline-flex items-center gap-1.5 rounded-lg bg-navy-700 px-4 py-2.5 text-white hover:bg-navy-900"
             >
-              Open dashboard
+              {cta}
             </Link>
           </nav>
         </div>
@@ -84,10 +89,11 @@ export function LandingPage() {
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
-                to="/fleet"
+                to={ctaTo}
+              state={{ from: "/fleet" }}
                 className="inline-flex items-center gap-2 rounded-[9px] bg-white px-[22px] py-[13px] font-semibold text-navy-900 hover:bg-navy-50"
               >
-                Open fleet ranking <ArrowRight className="size-4" />
+                {cta} <ArrowRight className="size-4" />
               </Link>
               <a
                 href="#how"
@@ -214,10 +220,11 @@ export function LandingPage() {
             <p className="text-[#c9d6e5]">Open the ranking, then click into any vessel to see why it scored as it did.</p>
           </div>
           <Link
-            to="/fleet"
+            to={ctaTo}
+              state={{ from: "/fleet" }}
             className="inline-flex items-center gap-2 rounded-[9px] bg-white px-[22px] py-[13px] font-semibold text-navy-900 hover:bg-navy-50"
           >
-            Open dashboard
+            {cta}
           </Link>
         </div>
       </section>

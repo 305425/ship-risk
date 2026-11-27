@@ -20,6 +20,7 @@ import type {
 
 const KEY_STORAGE = "esm.shiprisk.apiKey";
 const USER_STORAGE = "esm.shiprisk.user";
+const VERIFIED_STORAGE = "esm.shiprisk.verified";
 
 const toHex = (s: string) =>
   Array.from(new TextEncoder().encode(s))
@@ -41,9 +42,12 @@ function setMlflowCookie(apiKey: string) {
 export const session = {
   apiKey: () => localStorage.getItem(KEY_STORAGE) ?? "",
   user: () => localStorage.getItem(USER_STORAGE) ?? "",
+  /** True only after a key was checked on the login screen. */
+  isSignedIn: () => Boolean(localStorage.getItem(KEY_STORAGE)) && localStorage.getItem(VERIFIED_STORAGE) === "1",
   save(apiKey: string, user: string) {
     localStorage.setItem(KEY_STORAGE, apiKey.trim());
     localStorage.setItem(USER_STORAGE, user.trim());
+    localStorage.setItem(VERIFIED_STORAGE, "1");
     setMlflowCookie(apiKey.trim());
   },
   /** Re-issue the MLflow cookie for sessions that signed in before it existed. */
@@ -52,6 +56,7 @@ export const session = {
   },
   clear() {
     localStorage.removeItem(KEY_STORAGE);
+    localStorage.removeItem(VERIFIED_STORAGE);
     setMlflowCookie("");
   },
 };

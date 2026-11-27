@@ -16,7 +16,7 @@ export function ApiKeyProvider({ children }: { children: React.ReactNode }) {
   const qc = useQueryClient();
   const navigate = useNavigate();
   const location = useLocation();
-  const signedIn = Boolean(session.apiKey());
+  const signedIn = session.isSignedIn();
 
   const signOut = useCallback(() => {
     session.clear();
