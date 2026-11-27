@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Eyebrow } from "@/components/atoms";
 import { cn } from "@/lib/utils";
 
@@ -15,9 +15,13 @@ interface ReportTemplateProps {
 
 function useActiveSection(ids: string[]) {
   const [active, setActive] = useState(ids[0]);
+  // After a click the chosen section stays active until the reader scrolls by hand, because sections
+  // at the bottom of the page can never reach the observer's band.
+  const locked = useRef(false);
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
+        if (locked.current) return;
         const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
         if (visible[0]) setActive(visible[0].target.id);
       },
@@ -27,14 +31,31 @@ function useActiveSection(ids: string[]) {
       const el = document.getElementById(id);
       if (el) observer.observe(el);
     });
-    return () => observer.disconnect();
+    const unlock = () => {
+      locked.current = false;
+    };
+    window.addEventListener("wheel", unlock, { passive: true });
+    window.addEventListener("touchmove", unlock, { passive: true });
+    window.addEventListener("keydown", unlock);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("wheel", unlock);
+      window.removeEventListener("touchmove", unlock);
+      window.removeEventListener("keydown", unlock);
+    };
   }, [ids]);
-  return active;
+  const select = useCallback((id: string) => {
+    locked.current = true;
+    setActive(id);
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    history.replaceState(null, "", `#${id}`);
+  }, []);
+  return { active, select };
 }
 
 /** Hero on top, then the report body with a sticky section index on wide screens. */
 export function ReportTemplate({ hero, sections, children }: ReportTemplateProps) {
-  const active = useActiveSection(sections.map((s) => s.id));
+  const { active, select } = useActiveSection(sections.map((s) => s.id));
   return (
     <div className="space-y-6">
       {hero}
@@ -45,6 +66,10 @@ export function ReportTemplate({ hero, sections, children }: ReportTemplateProps
             <a
               key={s.id}
               href={`#${s.id}`}
+              onClick={(e) => {
+                e.preventDefault();
+                select(s.id);
+              }}
               className={cn(
                 "flex items-center gap-2.5 rounded-md border-l-2 px-3 py-1.5 text-[13px] transition-colors",
                 active === s.id ? "border-navy-700 bg-card font-medium text-navy-900 shadow-sm" : "border-transparent text-muted-foreground hover:text-foreground",
