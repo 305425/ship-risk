@@ -21,17 +21,50 @@ import type {
 const KEY_STORAGE = "esm.shiprisk.apiKey";
 const USER_STORAGE = "esm.shiprisk.user";
 
+const toHex = (s: string) =>
+  Array.from(new TextEncoder().encode(s))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+
+/** Lets nginx authorize /mlflow/ with the same sign-in (no second prompt). */
+function setMlflowCookie(apiKey: string) {
+  try {
+    const secure = location.protocol === "https:" ? "; Secure" : "";
+    const value = apiKey ? toHex(apiKey) : "";
+    const age = apiKey ? 60 * 60 * 24 * 30 : 0;
+    document.cookie = `esm_auth=${value}; Path=/mlflow/; Max-Age=${age}; SameSite=Lax${secure}`;
+  } catch {
+    /* cookies unavailable */
+  }
+}
+
 export const session = {
   apiKey: () => localStorage.getItem(KEY_STORAGE) ?? "",
   user: () => localStorage.getItem(USER_STORAGE) ?? "",
   save(apiKey: string, user: string) {
     localStorage.setItem(KEY_STORAGE, apiKey.trim());
     localStorage.setItem(USER_STORAGE, user.trim());
+    setMlflowCookie(apiKey.trim());
+  },
+  /** Re-issue the MLflow cookie for sessions that signed in before it existed. */
+  sync() {
+    setMlflowCookie(session.apiKey());
   },
   clear() {
     localStorage.removeItem(KEY_STORAGE);
+    setMlflowCookie("");
   },
 };
+
+export const UNAUTHORIZED_EVENT = "esm:unauthorized";
+
+/** Check a key against the API; resolves true when accepted, false when rejected. */
+export async function verifyApiKey(apiKey: string): Promise<boolean> {
+  const res = await fetch("/api/fleet/ranking", { headers: { "X-API-Key": apiKey.trim() } });
+  if (res.status === 401) return false;
+  if (!res.ok) throw new ApiError(res.status, res.status === 503 ? "The server has no API key configured" : res.statusText);
+  return true;
+}
 
 export class ApiError extends Error {
   constructor(
@@ -60,6 +93,7 @@ async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
 
   const res = await fetch(path, { ...init, headers });
   const body = await res.json().catch(() => null);
+  if (res.status === 401) window.dispatchEvent(new Event(UNAUTHORIZED_EVENT));
   if (!res.ok) {
     const rowErrors = (body && Array.isArray(body.errors) ? body.errors : []) as RowError[];
     throw new ApiError(res.status, detailMessage(body, res.statusText), rowErrors);

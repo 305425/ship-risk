@@ -10,9 +10,9 @@ export function ErrorState({ error, onRetry }: { error: unknown; onRetry?: () =>
     return (
       <EmptyState
         icon={KeyRound}
-        title="API key required"
-        description="Enter the dashboard API key to load fleet data."
-        action={<Button onClick={open}>Enter API key</Button>}
+        title="Session expired"
+        description="Sign in again to load fleet data."
+        action={<Button onClick={open}>Sign in</Button>}
       />
     );
   }

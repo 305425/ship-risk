@@ -4,6 +4,7 @@ import { ApiError } from "@/api/client";
 import { AppShell } from "@/components/templates";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { LoginPage } from "@/pages/LoginPage";
 import { LandingPage } from "@/pages/LandingPage";
 import { FleetPage } from "@/pages/FleetPage";
 import { NotFoundPage } from "@/pages/NotFoundPage";
@@ -38,6 +39,7 @@ function Root() {
 
 const router = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
+  { path: "/login", element: <LoginPage /> },
   {
     element: <Root />,
     children: [

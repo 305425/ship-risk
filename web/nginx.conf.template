@@ -1,14 +1,15 @@
-map_hash_bucket_size 256;
+map_hash_bucket_size 512;
 
-map $http_authorization $mlflow_ok {
+map $cookie_esm_auth $mlflow_ok {
     default 0;
-    "Basic ${MLFLOW_BASIC}" 1;
+    "${MLFLOW_TOKEN}" 1;
 }
 
 server {
     listen 80;
     root /usr/share/nginx/html;
     client_max_body_size 20m;
+    absolute_redirect off;
 
     location /api/ {
         proxy_pass http://api:8000;
@@ -48,8 +49,7 @@ server {
 
     location /mlflow/ {
         if ($mlflow_ok = 0) {
-            add_header WWW-Authenticate 'Basic realm="MLflow"' always;
-            return 401;
+            return 302 /login;
         }
         proxy_pass http://mlflow:5000;
         proxy_set_header Host $host;

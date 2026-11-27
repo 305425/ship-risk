@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { ExternalLink, FlaskConical, KeyRound, LayoutDashboard, PanelLeftClose, PanelLeftOpen, UploadCloud, type LucideIcon } from "lucide-react";
+import { ExternalLink, FlaskConical, LayoutDashboard, LogOut, PanelLeftClose, PanelLeftOpen, UploadCloud, type LucideIcon } from "lucide-react";
 import { useActiveRanking, useHealth } from "@/api/hooks";
 import { BrandLogo, Pennant, SilverRule, StatusDot } from "@/components/atoms";
 import { bandStyle } from "@/lib/domain";
@@ -213,7 +213,7 @@ export function AppSidebar() {
         <button
           type="button"
           onClick={open}
-          title={user || "Set operator"}
+          title={user ? `Sign out ${user}` : "Sign out"}
           className={cn(
             "flex w-full items-center rounded-md py-2 text-left text-[13px] text-white/70 transition-colors hover:bg-white/[0.07] hover:text-white",
             collapsed ? "justify-center px-1" : "gap-2.5 px-2",
@@ -222,8 +222,8 @@ export function AppSidebar() {
           <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-white/10 font-heading text-xs font-bold text-white">
             {initial}
           </span>
-          {collapsed ? <span className="sr-only">{user || "Set operator"}</span> : <span className="flex-1 truncate">{user || "Set operator"}</span>}
-          {collapsed ? null : <KeyRound className="size-3.5" />}
+          {collapsed ? <span className="sr-only">{user || "Signed in"}</span> : <span className="flex-1 truncate">{user || "Signed in"}</span>}
+          {collapsed ? null : <LogOut className="size-3.5" />}
         </button>
       </div>
 
