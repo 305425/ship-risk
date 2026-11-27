@@ -1,0 +1,136 @@
+audit_id,vessel_id,audit_finding_description,audit_finding_status
+AUD0001,V001,Fire pump pressure low,Open
+AUD0002,V001,Steering gear alarm fault,Open
+AUD0003,V001,Risk assessment incomplete,Open
+AUD0004,V001,Fire pump pressure low,Overdue
+AUD0005,V001,Garbage record incomplete,Closed
+AUD0006,V001,Watertight door defect,Closed
+AUD0007,V002,Lifeboat equipment defect,Closed
+AUD0008,V002,Lifeboat equipment defect,Open
+AUD0009,V002,Fire pump pressure low,Overdue
+AUD0010,V002,ECDIS procedure not followed,Closed
+AUD0011,V002,Passage planning incomplete,Overdue
+AUD0012,V002,Bilge alarm malfunction,Overdue
+AUD0013,V003,Main engine leakage observed,Open
+AUD0014,V003,Corrosion observed,Open
+AUD0015,V003,Lifejacket inventory discrepancy,Open
+AUD0016,V003,Navigation light malfunction,Closed
+AUD0017,V003,Bilge alarm malfunction,Closed
+AUD0018,V003,Safety procedure not followed,Closed
+AUD0019,V003,Lifeboat equipment defect,Open
+AUD0020,V004,Passage planning incomplete,Open
+AUD0021,V004,Navigation light malfunction,Open
+AUD0022,V004,Passage planning incomplete,Open
+AUD0023,V004,ECDIS procedure not followed,Overdue
+AUD0024,V004,Navigation light malfunction,Open
+AUD0025,V005,Watertight door defect,Overdue
+AUD0026,V005,Risk assessment incomplete,Overdue
+AUD0027,V005,Oil record book discrepancy,Closed
+AUD0028,V005,Watertight door defect,Closed
+AUD0029,V005,Oil record book discrepancy,Overdue
+AUD0030,V005,Main engine leakage observed,Closed
+AUD0031,V005,Safety procedure not followed,Overdue
+AUD0032,V005,Fire pump pressure low,Closed
+AUD0033,V005,Steering gear alarm fault,Closed
+AUD0034,V006,OWS alarm issue,Closed
+AUD0035,V006,OWS alarm issue,Closed
+AUD0036,V006,Fire alarm malfunction,Overdue
+AUD0037,V006,Safety procedure not followed,Open
+AUD0038,V006,Emergency generator starting failure,Closed
+AUD0039,V006,OWS alarm issue,Closed
+AUD0040,V006,ECDIS procedure not followed,Closed
+AUD0041,V006,ECDIS procedure not followed,Closed
+AUD0042,V006,Safety procedure not followed,Open
+AUD0043,V007,Chart correction records incomplete,Open
+AUD0044,V007,Navigation light malfunction,Closed
+AUD0045,V007,Oil record book discrepancy,Closed
+AUD0046,V007,Corrosion observed,Closed
+AUD0047,V007,Steering gear alarm fault,Closed
+AUD0048,V008,Corrosion observed,Closed
+AUD0049,V008,Navigation light malfunction,Overdue
+AUD0050,V008,Navigation light malfunction,Open
+AUD0051,V008,Passage planning incomplete,Closed
+AUD0052,V008,Corrosion observed,Closed
+AUD0053,V008,Emergency drill records incomplete,Closed
+AUD0054,V008,Garbage record incomplete,Overdue
+AUD0055,V009,Safety procedure not followed,Overdue
+AUD0056,V009,Corrosion observed,Closed
+AUD0057,V009,Fire door not closing properly,Overdue
+AUD0058,V009,Fire door not closing properly,Open
+AUD0059,V009,Main engine leakage observed,Open
+AUD0060,V009,Corrosion observed,Open
+AUD0061,V009,Watertight door defect,Open
+AUD0062,V009,Emergency drill records incomplete,Closed
+AUD0063,V009,Watertight door defect,Closed
+AUD0064,V010,Lifejacket inventory discrepancy,Overdue
+AUD0065,V010,Fire pump pressure low,Open
+AUD0066,V010,Risk assessment incomplete,Closed
+AUD0067,V010,Lifejacket inventory discrepancy,Open
+AUD0068,V010,Lifejacket inventory discrepancy,Closed
+AUD0069,V010,Fire alarm malfunction,Open
+AUD0070,V010,Main engine leakage observed,Closed
+AUD0071,V010,Oil record book discrepancy,Open
+AUD0072,V011,Watertight door defect,Overdue
+AUD0073,V011,Watertight door defect,Closed
+AUD0074,V011,Corrective action overdue,Open
+AUD0075,V011,Fire detection system fault,Overdue
+AUD0076,V011,Chart correction records incomplete,Overdue
+AUD0077,V012,Safety procedure not followed,Overdue
+AUD0078,V012,Garbage record incomplete,Open
+AUD0079,V012,Watertight door defect,Closed
+AUD0080,V012,Watertight door defect,Open
+AUD0081,V012,Risk assessment incomplete,Closed
+AUD0082,V012,Emergency drill records incomplete,Overdue
+AUD0083,V012,Safety procedure not followed,Closed
+AUD0084,V012,Safety procedure not followed,Open
+AUD0085,V012,Fire door not closing properly,Closed
+AUD0086,V013,Watertight door defect,Closed
+AUD0087,V013,ECDIS procedure not followed,Overdue
+AUD0088,V013,Watertight door defect,Overdue
+AUD0089,V013,Navigation light malfunction,Overdue
+AUD0090,V013,Lifejacket inventory discrepancy,Closed
+AUD0091,V013,Safety procedure not followed,Overdue
+AUD0092,V013,Corrosion observed,Overdue
+AUD0093,V013,Risk assessment incomplete,Overdue
+AUD0094,V013,Steering gear alarm fault,Overdue
+AUD0095,V014,Oil record book discrepancy,Open
+AUD0096,V014,Main engine leakage observed,Overdue
+AUD0097,V014,Corrosion observed,Closed
+AUD0098,V014,Main engine leakage observed,Closed
+AUD0099,V014,Chart correction records incomplete,Closed
+AUD0100,V015,Risk assessment incomplete,Open
+AUD0101,V015,Passage planning incomplete,Open
+AUD0102,V015,OWS alarm issue,Closed
+AUD0103,V015,Lifeboat equipment defect,Overdue
+AUD0104,V016,Fire pump pressure low,Closed
+AUD0105,V016,Bilge alarm malfunction,Open
+AUD0106,V016,Passage planning incomplete,Open
+AUD0107,V016,Corrosion observed,Overdue
+AUD0108,V016,Watertight door defect,Overdue
+AUD0109,V017,Watertight door defect,Open
+AUD0110,V017,Fire pump pressure low,Closed
+AUD0111,V017,Oil record book discrepancy,Overdue
+AUD0112,V017,Emergency generator starting failure,Overdue
+AUD0113,V017,Steering gear alarm fault,Closed
+AUD0114,V017,Corrosion observed,Closed
+AUD0115,V017,Emergency generator starting failure,Overdue
+AUD0116,V018,Fire alarm malfunction,Overdue
+AUD0117,V018,Watertight door defect,Closed
+AUD0118,V018,ECDIS procedure not followed,Overdue
+AUD0119,V018,Safety procedure not followed,Closed
+AUD0120,V018,Fire detection system fault,Open
+AUD0121,V018,Emergency drill records incomplete,Overdue
+AUD0122,V018,Fire pump pressure low,Closed
+AUD0123,V018,ECDIS procedure not followed,Closed
+AUD0124,V018,Safety procedure not followed,Closed
+AUD0125,V019,Lifeboat equipment defect,Closed
+AUD0126,V019,Fire pump pressure low,Overdue
+AUD0127,V019,Fire alarm malfunction,Closed
+AUD0128,V019,Bilge alarm malfunction,Closed
+AUD0129,V019,Lifeboat equipment defect,Open
+AUD0130,V020,Fire pump pressure low,Open
+AUD0131,V020,Fire door not closing properly,Closed
+AUD0132,V020,Emergency generator starting failure,Open
+AUD0133,V020,Watertight door defect,Closed
+AUD0134,V020,Fire detection system fault,Open
+AUD0135,V020,Risk assessment incomplete,Open

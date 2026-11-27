@@ -1,0 +1,165 @@
+# Risk rules for the Ship Detention Early Warning System.
+# Starting values to agree with the operations team (solution proposal, section 3).
+
+version: 1
+
+# Each feature is normalised against the fleet (value / fleet reference, capped at 1), then combined
+# with the feature weights (which sum to 1) and scaled to the component's max_points.
+# A percentile reference stops one outlier vessel (V001) from compressing everyone else.
+normalization:
+  percentile: 0.95
+
+components:
+  inspection:
+    label: Inspection history
+    owner: Marine
+    max_points: 30
+    features:
+      last_result: 0.40
+      deficiency_trend: 0.25
+      prior_bad_outcomes: 0.35
+  deficiencies:
+    label: Deficiencies
+    owner: Marine / Technical
+    max_points: 25
+    features:
+      open_severity: 0.45
+      open_age: 0.20
+      recurring: 0.35
+  maintenance:
+    label: Maintenance & equipment
+    owner: Technical
+    max_points: 20
+    features:
+      pct_overdue: 0.40
+      overdue_critical: 0.30
+      repeat_failures: 0.30
+  crew:
+    label: Crew
+    owner: Crewing
+    max_points: 15
+    features:
+      recent_senior_joiners: 0.30
+      low_rank_experience: 0.20
+      training_pending: 0.25
+      stcw_expiring: 0.25
+  audit:
+    label: Audit / ISM
+    owner: Marine / HSQE
+    max_points: 10
+    features:
+      overdue_findings: 0.60
+      repeats_deficiency: 0.40
+
+inspection_result_values:
+  No Major Findings: 0.0
+  Deficiencies Found: 0.4
+  Major Deficiencies: 0.8
+  Detained: 1.0
+
+bad_outcomes: [Major Deficiencies, Detained]
+
+severity_weights:
+  Fire Safety: 3
+  Navigation: 3
+  Life Saving: 2
+  Machinery: 2
+  ISM: 2
+  Pollution Prevention: 1
+  Structural: 1
+
+critical_equipment: [Fire Pump, Emergency Generator, Steering Gear, ECDIS, Lifeboat]
+senior_ranks: [Master, Chief Engineer, Chief Officer, Second Engineer]
+
+thresholds:
+  recurring_min_inspections: 2
+  recurring_strong_inspections: 3
+  # The latest crew join in the sample data is Aug 2026; a 60-day window from today finds nobody.
+  recent_joiner_days: 150
+  low_rank_experience_months: 36
+  repeat_failure_count: 3
+
+overrides:
+  recent_detention:
+    # Sample inspections end Jul 2025; 12 months from today would miss both detentions.
+    months: 24
+    text: Detained in the last {months} months
+  aged_open_deficiency:
+    categories: [Fire Safety, Navigation]
+    # Age is measured to the vessel's latest inspection: open items still open at a later
+    # inspection. Measured to today, every open item in the sample is over a year old.
+    days: 90
+    text: Open {category} deficiency carried over {days}+ days past a later inspection
+  senior_certification:
+    ranks: [Master, Chief Engineer]
+    text: "{rank} with STCW expiring or training pending"
+  critical_overdue_cluster:
+    min_overdue: 3
+    # Without the failure condition, V007, V008 and V015 (no repeat failures on that item) would be forced to High.
+    min_failures: 2
+    text: "{min_overdue}+ overdue jobs on {equipment}, which has failed {failures} times"
+
+bands:
+  high: 60
+  medium: 35
+
+confidence:
+  max_inspection_age_months: 9
+  checks:
+    stale_inspection: low
+    missing_source: low
+    stale_records: low
+
+actions:
+  - id: detention_readiness
+    trigger: recent_detention
+    text: Pre-inspection readiness review with the superintendent, covering the detention items ({record_ids})
+    owner: Marine
+    deadline_days: 14
+  - id: aged_fire_deficiency
+    trigger: aged_open_deficiency
+    when: {category: Fire Safety}
+    text: Repair and test the equipment behind aged fire safety deficiencies ({record_ids}) and send evidence
+    owner: Technical
+    deadline_days: 7
+    resolves: deficiencies
+  - id: aged_navigation_deficiency
+    trigger: aged_open_deficiency
+    when: {category: Navigation}
+    text: Close aged navigation deficiencies ({record_ids}) and send evidence
+    owner: Marine
+    deadline_days: 7
+    resolves: deficiencies
+  - id: recurring_navigation
+    trigger: recurring_deficiency
+    when: {category: Navigation}
+    text: "Bridge procedures audit and ECDIS refresher for recurring finding: {subject}"
+    owner: Marine
+    deadline_days: 14
+    resolves: deficiencies
+  - id: recurring_technical
+    trigger: recurring_deficiency
+    text: "Root-cause repair for recurring finding: {subject}"
+    owner: Technical
+    deadline_days: 14
+    resolves: deficiencies
+  - id: senior_certification
+    trigger: senior_certification
+    text: Renew STCW certificate or complete pending training, or plan relief ({record_ids})
+    owner: Crewing
+    deadline_days: 7
+    deadline_label: Before next port
+    resolves: crew
+  - id: critical_overdue_cluster
+    trigger: critical_overdue_cluster
+    text: "Clear overdue maintenance on {subject} ({record_ids})"
+    owner: Technical
+    deadline_days: 14
+    resolves: maintenance
+  - id: overdue_audit_findings
+    trigger: overdue_audit_findings
+    when: {min_count: 3}
+    text: Close-out review of overdue audit findings with the ship's office ({record_ids})
+    owner: HSQE
+    deadline_days: 30
+    resolves: audit_findings

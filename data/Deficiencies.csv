@@ -1,0 +1,287 @@
+deficiency_id,inspection_id,vessel_id,deficiency_code,deficiency_category,deficiency_description,deficiency_status,deficiency_closed_date
+DEF0001,INS0001,V001,FIR-50,Fire Safety,Fire pump pressure low,Closed,2024-02-24
+DEF0002,INS0001,V001,FIR-22,Fire Safety,Fire pump pressure low,Closed,2024-04-17
+DEF0003,INS0001,V001,FIR-13,Fire Safety,Fire pump pressure low,Closed,2024-03-13
+DEF0004,INS0002,V001,FIR-36,Fire Safety,Fire alarm malfunction,Closed,2024-08-10
+DEF0005,INS0002,V001,FIR-69,Fire Safety,Fire pump pressure low,Closed,2024-09-29
+DEF0006,INS0002,V001,FIR-33,Fire Safety,Fire pump pressure low,Closed,2024-09-06
+DEF0007,INS0002,V001,MAC-40,Machinery,Emergency generator starting failure,Closed,2024-10-07
+DEF0008,INS0002,V001,LIF-81,Life Saving,Lifejacket inventory discrepancy,Closed,2024-08-13
+DEF0009,INS0002,V001,MAC-38,Machinery,Main engine leakage observed,Closed,2024-09-12
+DEF0010,INS0003,V001,FIR-94,Fire Safety,Fire pump pressure low,Open,
+DEF0011,INS0003,V001,FIR-61,Fire Safety,Fire pump pressure low,Open,
+DEF0012,INS0003,V001,FIR-90,Fire Safety,Fire alarm malfunction,Open,
+DEF0013,INS0003,V001,MAC-73,Machinery,Steering gear alarm fault,Closed,2025-02-11
+DEF0014,INS0003,V001,ISM-31,ISM,Risk assessment incomplete,Closed,2025-02-01
+DEF0015,INS0003,V001,FIR-31,Fire Safety,Fire alarm malfunction,Closed,2025-01-19
+DEF0016,INS0003,V001,FIR-87,Fire Safety,Fire alarm malfunction,Closed,2025-01-26
+DEF0017,INS0003,V001,POL-70,Pollution Prevention,OWS alarm issue,Closed,2025-03-04
+DEF0018,INS0003,V001,POL-22,Pollution Prevention,Oil record book discrepancy,Closed,2025-02-17
+DEF0019,INS0004,V001,FIR-24,Fire Safety,Fire detection system fault,Open,
+DEF0020,INS0004,V001,FIR-68,Fire Safety,Fire pump pressure low,Open,
+DEF0021,INS0004,V001,FIR-29,Fire Safety,Fire pump pressure low,Open,
+DEF0022,INS0004,V001,MAC-39,Machinery,Bilge alarm malfunction,Closed,2025-07-08
+DEF0023,INS0004,V001,ISM-85,ISM,Corrective action overdue,Closed,2025-08-01
+DEF0024,INS0004,V001,POL-28,Pollution Prevention,Oil record book discrepancy,Closed,2025-08-01
+DEF0025,INS0004,V001,MAC-65,Machinery,Bilge alarm malfunction,Open,
+DEF0026,INS0004,V001,ISM-11,ISM,Safety procedure not followed,Open,
+DEF0027,INS0004,V001,LIF-22,Life Saving,Lifeboat equipment defect,Open,
+DEF0028,INS0004,V001,MAC-74,Machinery,Emergency generator starting failure,Open,
+DEF0029,INS0005,V002,STR-80,Structural,Corrosion observed,Closed,2024-02-04
+DEF0030,INS0005,V002,FIR-52,Fire Safety,Fire door not closing properly,Closed,2024-02-12
+DEF0031,INS0005,V002,LIF-58,Life Saving,Emergency drill records incomplete,Closed,2024-03-13
+DEF0032,INS0006,V002,POL-60,Pollution Prevention,Oil record book discrepancy,Closed,2024-08-03
+DEF0033,INS0006,V002,LIF-32,Life Saving,Lifejacket inventory discrepancy,Closed,2024-09-27
+DEF0034,INS0006,V002,FIR-18,Fire Safety,Fire door not closing properly,Closed,2024-08-12
+DEF0035,INS0006,V002,POL-28,Pollution Prevention,Oil record book discrepancy,Closed,2024-08-11
+DEF0036,INS0007,V002,LIF-92,Life Saving,Lifeboat equipment defect,Closed,2025-01-25
+DEF0037,INS0007,V002,POL-30,Pollution Prevention,OWS alarm issue,Closed,2025-03-06
+DEF0038,INS0007,V002,STR-95,Structural,Corrosion observed,Closed,2025-01-26
+DEF0039,INS0008,V002,FIR-17,Fire Safety,Fire detection system fault,Open,
+DEF0040,INS0008,V002,FIR-28,Fire Safety,Fire alarm malfunction,Open,
+DEF0041,INS0008,V002,LIF-21,Life Saving,Emergency drill records incomplete,Open,
+DEF0042,INS0008,V002,NAV-71,Navigation,Navigation light malfunction,Closed,2025-07-16
+DEF0043,INS0009,V003,ISM-57,ISM,Safety procedure not followed,Closed,2024-03-26
+DEF0044,INS0009,V003,ISM-10,ISM,Safety procedure not followed,Closed,2024-03-11
+DEF0045,INS0009,V003,STR-64,Structural,Corrosion observed,Closed,2024-01-29
+DEF0046,INS0009,V003,NAV-71,Navigation,Passage planning incomplete,Closed,2024-03-21
+DEF0047,INS0009,V003,STR-94,Structural,Watertight door defect,Closed,2024-03-11
+DEF0048,INS0010,V003,LIF-68,Life Saving,Emergency drill records incomplete,Closed,2024-08-07
+DEF0049,INS0010,V003,STR-61,Structural,Watertight door defect,Closed,2024-09-03
+DEF0050,INS0010,V003,FIR-98,Fire Safety,Fire alarm malfunction,Closed,2024-07-27
+DEF0051,INS0011,V003,ISM-50,ISM,Corrective action overdue,Closed,2025-02-19
+DEF0052,INS0011,V003,FIR-50,Fire Safety,Fire pump pressure low,Closed,2025-02-04
+DEF0053,INS0012,V003,STR-44,Structural,Watertight door defect,Open,
+DEF0054,INS0012,V003,FIR-97,Fire Safety,Fire door not closing properly,Open,
+DEF0055,INS0012,V003,NAV-84,Navigation,Chart correction records incomplete,Closed,2025-08-08
+DEF0056,INS0012,V003,MAC-31,Machinery,Main engine leakage observed,Open,
+DEF0057,INS0013,V004,NAV-51,Navigation,Chart correction records incomplete,Closed,2024-03-22
+DEF0058,INS0013,V004,NAV-97,Navigation,ECDIS procedure not followed,Closed,2024-03-20
+DEF0059,INS0014,V004,NAV-91,Navigation,Chart correction records incomplete,Closed,2024-08-16
+DEF0060,INS0014,V004,NAV-36,Navigation,Chart correction records incomplete,Closed,2024-08-31
+DEF0061,INS0014,V004,NAV-41,Navigation,Passage planning incomplete,Closed,2024-09-13
+DEF0062,INS0014,V004,NAV-43,Navigation,Passage planning incomplete,Closed,2024-07-31
+DEF0063,INS0015,V004,NAV-83,Navigation,ECDIS procedure not followed,Closed,2025-02-10
+DEF0064,INS0015,V004,NAV-67,Navigation,Navigation light malfunction,Closed,2025-03-01
+DEF0065,INS0015,V004,NAV-92,Navigation,Navigation light malfunction,Closed,2025-02-25
+DEF0066,INS0015,V004,NAV-14,Navigation,ECDIS procedure not followed,Closed,2025-03-04
+DEF0067,INS0015,V004,MAC-43,Machinery,Steering gear alarm fault,Closed,2025-02-07
+DEF0068,INS0016,V004,NAV-13,Navigation,Chart correction records incomplete,Open,
+DEF0069,INS0016,V004,NAV-76,Navigation,Passage planning incomplete,Closed,2025-07-11
+DEF0070,INS0016,V004,NAV-49,Navigation,ECDIS procedure not followed,Open,
+DEF0071,INS0016,V004,ISM-47,ISM,Corrective action overdue,Open,
+DEF0072,INS0016,V004,FIR-12,Fire Safety,Fire alarm malfunction,Open,
+DEF0073,INS0016,V004,POL-74,Pollution Prevention,OWS alarm issue,Closed,2025-06-21
+DEF0074,INS0016,V004,MAC-22,Machinery,Emergency generator starting failure,Open,
+DEF0075,INS0017,V005,LIF-10,Life Saving,Emergency drill records incomplete,Closed,2024-03-12
+DEF0076,INS0017,V005,POL-43,Pollution Prevention,Oil record book discrepancy,Closed,2024-03-17
+DEF0077,INS0017,V005,LIF-31,Life Saving,Lifejacket inventory discrepancy,Closed,2024-04-02
+DEF0078,INS0017,V005,POL-43,Pollution Prevention,OWS alarm issue,Closed,2024-03-29
+DEF0079,INS0018,V005,STR-57,Structural,Watertight door defect,Closed,2024-08-07
+DEF0080,INS0019,V005,FIR-35,Fire Safety,Fire door not closing properly,Closed,2025-01-28
+DEF0081,INS0019,V005,POL-46,Pollution Prevention,Oil record book discrepancy,Closed,2025-01-01
+DEF0082,INS0019,V005,ISM-58,ISM,Safety procedure not followed,Closed,2025-01-25
+DEF0083,INS0019,V005,LIF-25,Life Saving,Lifejacket inventory discrepancy,Closed,2024-12-28
+DEF0084,INS0020,V005,STR-37,Structural,Corrosion observed,Closed,2025-08-11
+DEF0085,INS0021,V006,FIR-53,Fire Safety,Fire door not closing properly,Closed,2024-04-24
+DEF0086,INS0021,V006,POL-11,Pollution Prevention,Garbage record incomplete,Closed,2024-03-11
+DEF0087,INS0021,V006,FIR-49,Fire Safety,Fire alarm malfunction,Closed,2024-04-12
+DEF0088,INS0021,V006,LIF-98,Life Saving,Emergency drill records incomplete,Closed,2024-03-31
+DEF0089,INS0021,V006,MAC-36,Machinery,Bilge alarm malfunction,Closed,2024-03-07
+DEF0090,INS0022,V006,POL-59,Pollution Prevention,Oil record book discrepancy,Closed,2024-09-22
+DEF0091,INS0022,V006,MAC-60,Machinery,Bilge alarm malfunction,Closed,2024-08-15
+DEF0092,INS0023,V006,LIF-99,Life Saving,Lifeboat equipment defect,Closed,2025-01-31
+DEF0093,INS0024,V006,FIR-48,Fire Safety,Fire door not closing properly,Open,
+DEF0094,INS0024,V006,MAC-53,Machinery,Steering gear alarm fault,Open,
+DEF0095,INS0024,V006,STR-64,Structural,Watertight door defect,Closed,2025-08-13
+DEF0096,INS0025,V007,LIF-21,Life Saving,Lifejacket inventory discrepancy,Closed,2024-03-10
+DEF0097,INS0025,V007,FIR-72,Fire Safety,Fire detection system fault,Closed,2024-02-18
+DEF0098,INS0025,V007,LIF-21,Life Saving,Emergency drill records incomplete,Closed,2024-02-18
+DEF0099,INS0025,V007,STR-63,Structural,Watertight door defect,Closed,2024-02-23
+DEF0100,INS0026,V007,STR-74,Structural,Watertight door defect,Closed,2024-08-07
+DEF0101,INS0026,V007,ISM-36,ISM,Safety procedure not followed,Closed,2024-09-08
+DEF0102,INS0026,V007,NAV-10,Navigation,Passage planning incomplete,Closed,2024-08-07
+DEF0103,INS0027,V007,FIR-23,Fire Safety,Fire door not closing properly,Closed,2025-02-03
+DEF0104,INS0027,V007,NAV-51,Navigation,Passage planning incomplete,Closed,2025-01-02
+DEF0105,INS0028,V007,FIR-61,Fire Safety,Fire door not closing properly,Closed,2025-07-07
+DEF0106,INS0028,V007,NAV-38,Navigation,Passage planning incomplete,Closed,2025-07-04
+DEF0107,INS0028,V007,NAV-20,Navigation,ECDIS procedure not followed,Closed,2025-07-19
+DEF0108,INS0028,V007,NAV-47,Navigation,Passage planning incomplete,Closed,2025-08-04
+DEF0109,INS0028,V007,POL-72,Pollution Prevention,Garbage record incomplete,Open,
+DEF0110,INS0029,V008,NAV-87,Navigation,Chart correction records incomplete,Closed,2024-03-20
+DEF0111,INS0030,V008,STR-78,Structural,Watertight door defect,Closed,2024-09-10
+DEF0112,INS0030,V008,STR-92,Structural,Corrosion observed,Closed,2024-08-26
+DEF0113,INS0030,V008,LIF-70,Life Saving,Emergency drill records incomplete,Closed,2024-09-09
+DEF0114,INS0030,V008,LIF-45,Life Saving,Lifeboat equipment defect,Closed,2024-08-31
+DEF0115,INS0030,V008,STR-54,Structural,Watertight door defect,Closed,2024-09-22
+DEF0116,INS0031,V008,MAC-26,Machinery,Emergency generator starting failure,Closed,2025-01-26
+DEF0117,INS0031,V008,STR-80,Structural,Corrosion observed,Closed,2025-03-13
+DEF0118,INS0032,V008,ISM-18,ISM,Risk assessment incomplete,Closed,2025-08-22
+DEF0119,INS0032,V008,LIF-59,Life Saving,Lifeboat equipment defect,Open,
+DEF0120,INS0033,V009,POL-52,Pollution Prevention,OWS alarm issue,Closed,2024-03-17
+DEF0121,INS0033,V009,STR-19,Structural,Watertight door defect,Closed,2024-03-02
+DEF0122,INS0033,V009,MAC-75,Machinery,Bilge alarm malfunction,Closed,2024-04-17
+DEF0123,INS0034,V009,MAC-38,Machinery,Bilge alarm malfunction,Closed,2024-08-24
+DEF0124,INS0034,V009,MAC-25,Machinery,Steering gear alarm fault,Closed,2024-09-03
+DEF0125,INS0035,V009,MAC-14,Machinery,Main engine leakage observed,Closed,2025-02-14
+DEF0126,INS0035,V009,LIF-84,Life Saving,Lifeboat equipment defect,Closed,2025-03-11
+DEF0127,INS0035,V009,LIF-99,Life Saving,Emergency drill records incomplete,Closed,2025-01-08
+DEF0128,INS0035,V009,MAC-46,Machinery,Emergency generator starting failure,Closed,2025-02-09
+DEF0129,INS0036,V009,ISM-48,ISM,Corrective action overdue,Open,
+DEF0130,INS0036,V009,FIR-38,Fire Safety,Fire detection system fault,Closed,2025-06-24
+DEF0131,INS0037,V010,POL-89,Pollution Prevention,Oil record book discrepancy,Closed,2024-04-03
+DEF0132,INS0037,V010,ISM-99,ISM,Safety procedure not followed,Closed,2024-02-14
+DEF0133,INS0038,V010,STR-97,Structural,Watertight door defect,Closed,2024-08-10
+DEF0134,INS0038,V010,NAV-19,Navigation,Navigation light malfunction,Closed,2024-08-27
+DEF0135,INS0038,V010,STR-49,Structural,Corrosion observed,Closed,2024-08-06
+DEF0136,INS0038,V010,MAC-96,Machinery,Bilge alarm malfunction,Closed,2024-08-16
+DEF0137,INS0039,V010,FIR-80,Fire Safety,Fire alarm malfunction,Closed,2025-03-08
+DEF0138,INS0039,V010,LIF-96,Life Saving,Emergency drill records incomplete,Closed,2025-03-07
+DEF0139,INS0039,V010,ISM-80,ISM,Safety procedure not followed,Closed,2025-02-08
+DEF0140,INS0039,V010,MAC-80,Machinery,Steering gear alarm fault,Closed,2025-03-14
+DEF0141,INS0039,V010,MAC-30,Machinery,Bilge alarm malfunction,Closed,2025-02-09
+DEF0142,INS0040,V010,STR-39,Structural,Corrosion observed,Closed,2025-07-21
+DEF0143,INS0040,V010,LIF-47,Life Saving,Lifejacket inventory discrepancy,Closed,2025-07-22
+DEF0144,INS0040,V010,MAC-48,Machinery,Main engine leakage observed,Closed,2025-07-27
+DEF0145,INS0040,V010,FIR-64,Fire Safety,Fire alarm malfunction,Open,
+DEF0146,INS0041,V011,POL-93,Pollution Prevention,Garbage record incomplete,Closed,2024-02-28
+DEF0147,INS0041,V011,POL-18,Pollution Prevention,OWS alarm issue,Closed,2024-02-07
+DEF0148,INS0041,V011,POL-54,Pollution Prevention,Garbage record incomplete,Closed,2024-03-22
+DEF0149,INS0042,V011,ISM-30,ISM,Safety procedure not followed,Closed,2024-07-24
+DEF0150,INS0042,V011,POL-52,Pollution Prevention,OWS alarm issue,Closed,2024-07-06
+DEF0151,INS0042,V011,LIF-89,Life Saving,Emergency drill records incomplete,Closed,2024-09-04
+DEF0152,INS0042,V011,POL-38,Pollution Prevention,OWS alarm issue,Closed,2024-08-02
+DEF0153,INS0043,V011,STR-45,Structural,Corrosion observed,Closed,2025-02-08
+DEF0154,INS0044,V011,LIF-25,Life Saving,Lifeboat equipment defect,Closed,2025-09-02
+DEF0155,INS0044,V011,FIR-69,Fire Safety,Fire door not closing properly,Open,
+DEF0156,INS0044,V011,ISM-38,ISM,Corrective action overdue,Open,
+DEF0157,INS0044,V011,FIR-95,Fire Safety,Fire detection system fault,Open,
+DEF0158,INS0044,V011,LIF-17,Life Saving,Lifejacket inventory discrepancy,Closed,2025-08-18
+DEF0159,INS0045,V012,MAC-98,Machinery,Bilge alarm malfunction,Closed,2024-03-09
+DEF0160,INS0045,V012,STR-29,Structural,Watertight door defect,Closed,2024-02-14
+DEF0161,INS0045,V012,FIR-93,Fire Safety,Fire detection system fault,Closed,2024-03-12
+DEF0162,INS0045,V012,POL-49,Pollution Prevention,OWS alarm issue,Closed,2024-04-10
+DEF0163,INS0046,V012,POL-99,Pollution Prevention,Oil record book discrepancy,Closed,2024-07-11
+DEF0164,INS0046,V012,LIF-63,Life Saving,Emergency drill records incomplete,Closed,2024-08-13
+DEF0165,INS0046,V012,POL-34,Pollution Prevention,OWS alarm issue,Closed,2024-08-13
+DEF0166,INS0046,V012,LIF-52,Life Saving,Lifejacket inventory discrepancy,Closed,2024-07-31
+DEF0167,INS0046,V012,NAV-31,Navigation,Passage planning incomplete,Closed,2024-09-06
+DEF0168,INS0047,V012,POL-54,Pollution Prevention,Garbage record incomplete,Closed,2025-02-10
+DEF0169,INS0047,V012,FIR-69,Fire Safety,Fire door not closing properly,Closed,2025-01-07
+DEF0170,INS0047,V012,NAV-41,Navigation,ECDIS procedure not followed,Closed,2025-01-10
+DEF0171,INS0047,V012,FIR-74,Fire Safety,Fire detection system fault,Closed,2024-12-25
+DEF0172,INS0047,V012,MAC-40,Machinery,Main engine leakage observed,Closed,2025-01-19
+DEF0173,INS0048,V012,FIR-45,Fire Safety,Fire detection system fault,Open,
+DEF0174,INS0048,V012,MAC-77,Machinery,Emergency generator starting failure,Closed,2025-06-15
+DEF0175,INS0048,V012,STR-33,Structural,Corrosion observed,Open,
+DEF0176,INS0048,V012,FIR-82,Fire Safety,Fire alarm malfunction,Open,
+DEF0177,INS0049,V013,STR-57,Structural,Corrosion observed,Closed,2024-03-12
+DEF0178,INS0049,V013,NAV-65,Navigation,Passage planning incomplete,Closed,2024-02-28
+DEF0179,INS0049,V013,STR-67,Structural,Corrosion observed,Closed,2024-04-02
+DEF0180,INS0050,V013,ISM-76,ISM,Corrective action overdue,Closed,2024-07-31
+DEF0181,INS0050,V013,STR-73,Structural,Watertight door defect,Closed,2024-08-27
+DEF0182,INS0050,V013,MAC-93,Machinery,Bilge alarm malfunction,Closed,2024-09-17
+DEF0183,INS0051,V013,ISM-92,ISM,Risk assessment incomplete,Closed,2025-02-19
+DEF0184,INS0051,V013,ISM-26,ISM,Risk assessment incomplete,Closed,2025-02-08
+DEF0185,INS0051,V013,FIR-17,Fire Safety,Fire alarm malfunction,Closed,2024-12-27
+DEF0186,INS0051,V013,MAC-89,Machinery,Steering gear alarm fault,Closed,2025-02-08
+DEF0187,INS0052,V013,POL-28,Pollution Prevention,OWS alarm issue,Closed,2025-07-25
+DEF0188,INS0052,V013,POL-30,Pollution Prevention,OWS alarm issue,Closed,2025-07-11
+DEF0189,INS0052,V013,FIR-79,Fire Safety,Fire detection system fault,Closed,2025-07-25
+DEF0190,INS0052,V013,ISM-41,ISM,Risk assessment incomplete,Closed,2025-07-17
+DEF0191,INS0052,V013,FIR-82,Fire Safety,Fire detection system fault,Closed,2025-08-01
+DEF0192,INS0053,V014,POL-51,Pollution Prevention,OWS alarm issue,Closed,2024-04-13
+DEF0193,INS0053,V014,LIF-27,Life Saving,Emergency drill records incomplete,Closed,2024-03-28
+DEF0194,INS0053,V014,MAC-54,Machinery,Main engine leakage observed,Closed,2024-03-18
+DEF0195,INS0054,V014,MAC-86,Machinery,Main engine leakage observed,Closed,2024-09-19
+DEF0196,INS0054,V014,ISM-70,ISM,Safety procedure not followed,Closed,2024-09-05
+DEF0197,INS0054,V014,MAC-57,Machinery,Emergency generator starting failure,Closed,2024-09-02
+DEF0198,INS0055,V014,POL-47,Pollution Prevention,OWS alarm issue,Closed,2025-02-07
+DEF0199,INS0055,V014,ISM-70,ISM,Risk assessment incomplete,Closed,2025-01-29
+DEF0200,INS0055,V014,STR-55,Structural,Corrosion observed,Closed,2025-02-13
+DEF0201,INS0056,V014,STR-44,Structural,Watertight door defect,Closed,2025-07-09
+DEF0202,INS0056,V014,ISM-99,ISM,Corrective action overdue,Closed,2025-07-11
+DEF0203,INS0056,V014,FIR-69,Fire Safety,Fire pump pressure low,Closed,2025-08-22
+DEF0204,INS0056,V014,STR-43,Structural,Corrosion observed,Open,
+DEF0205,INS0056,V014,POL-75,Pollution Prevention,Garbage record incomplete,Open,
+DEF0206,INS0057,V015,LIF-77,Life Saving,Lifejacket inventory discrepancy,Closed,2024-03-23
+DEF0207,INS0057,V015,NAV-33,Navigation,Navigation light malfunction,Closed,2024-04-07
+DEF0208,INS0057,V015,NAV-31,Navigation,ECDIS procedure not followed,Closed,2024-04-16
+DEF0209,INS0057,V015,FIR-90,Fire Safety,Fire alarm malfunction,Closed,2024-03-18
+DEF0210,INS0058,V015,STR-77,Structural,Watertight door defect,Closed,2024-08-14
+DEF0211,INS0058,V015,FIR-76,Fire Safety,Fire alarm malfunction,Closed,2024-09-01
+DEF0212,INS0059,V015,ISM-60,ISM,Safety procedure not followed,Closed,2025-03-14
+DEF0213,INS0059,V015,MAC-29,Machinery,Main engine leakage observed,Closed,2025-02-10
+DEF0214,INS0059,V015,STR-91,Structural,Corrosion observed,Closed,2025-03-19
+DEF0215,INS0060,V015,MAC-49,Machinery,Bilge alarm malfunction,Open,
+DEF0216,INS0060,V015,ISM-47,ISM,Safety procedure not followed,Closed,2025-07-23
+DEF0217,INS0060,V015,ISM-76,ISM,Risk assessment incomplete,Closed,2025-07-18
+DEF0218,INS0060,V015,MAC-69,Machinery,Bilge alarm malfunction,Open,
+DEF0219,INS0060,V015,FIR-59,Fire Safety,Fire detection system fault,Open,
+DEF0220,INS0061,V016,STR-70,Structural,Watertight door defect,Closed,2024-02-18
+DEF0221,INS0062,V016,NAV-45,Navigation,Navigation light malfunction,Closed,2024-09-30
+DEF0222,INS0062,V016,NAV-68,Navigation,Passage planning incomplete,Closed,2024-09-18
+DEF0223,INS0062,V016,LIF-75,Life Saving,Emergency drill records incomplete,Closed,2024-08-15
+DEF0224,INS0062,V016,FIR-16,Fire Safety,Fire pump pressure low,Closed,2024-10-06
+DEF0225,INS0062,V016,POL-98,Pollution Prevention,Garbage record incomplete,Closed,2024-09-08
+DEF0226,INS0063,V016,LIF-95,Life Saving,Lifejacket inventory discrepancy,Closed,2025-03-04
+DEF0227,INS0064,V016,FIR-45,Fire Safety,Fire door not closing properly,Closed,2025-08-18
+DEF0228,INS0064,V016,POL-25,Pollution Prevention,Garbage record incomplete,Open,
+DEF0229,INS0064,V016,NAV-24,Navigation,Navigation light malfunction,Closed,2025-07-05
+DEF0230,INS0065,V017,MAC-91,Machinery,Main engine leakage observed,Closed,2024-03-01
+DEF0231,INS0065,V017,LIF-79,Life Saving,Lifeboat equipment defect,Closed,2024-04-06
+DEF0232,INS0065,V017,FIR-30,Fire Safety,Fire door not closing properly,Closed,2024-02-19
+DEF0233,INS0065,V017,NAV-51,Navigation,Navigation light malfunction,Closed,2024-04-08
+DEF0234,INS0065,V017,POL-23,Pollution Prevention,OWS alarm issue,Closed,2024-03-26
+DEF0235,INS0066,V017,ISM-40,ISM,Risk assessment incomplete,Closed,2024-08-13
+DEF0236,INS0066,V017,ISM-48,ISM,Safety procedure not followed,Closed,2024-09-07
+DEF0237,INS0066,V017,POL-72,Pollution Prevention,Garbage record incomplete,Closed,2024-09-11
+DEF0238,INS0066,V017,NAV-41,Navigation,Passage planning incomplete,Closed,2024-09-12
+DEF0239,INS0066,V017,FIR-36,Fire Safety,Fire door not closing properly,Closed,2024-08-15
+DEF0240,INS0067,V017,MAC-98,Machinery,Bilge alarm malfunction,Closed,2025-01-26
+DEF0241,INS0068,V017,MAC-93,Machinery,Emergency generator starting failure,Closed,2025-06-08
+DEF0242,INS0068,V017,FIR-31,Fire Safety,Fire door not closing properly,Open,
+DEF0243,INS0068,V017,FIR-85,Fire Safety,Fire alarm malfunction,Closed,2025-06-18
+DEF0244,INS0068,V017,POL-66,Pollution Prevention,Oil record book discrepancy,Open,
+DEF0245,INS0068,V017,LIF-44,Life Saving,Emergency drill records incomplete,Open,
+DEF0246,INS0069,V018,STR-98,Structural,Corrosion observed,Closed,2024-02-28
+DEF0247,INS0069,V018,ISM-53,ISM,Corrective action overdue,Closed,2024-03-17
+DEF0248,INS0070,V018,POL-74,Pollution Prevention,Oil record book discrepancy,Closed,2024-09-03
+DEF0249,INS0070,V018,NAV-50,Navigation,Navigation light malfunction,Closed,2024-09-14
+DEF0250,INS0070,V018,POL-39,Pollution Prevention,Oil record book discrepancy,Closed,2024-09-29
+DEF0251,INS0071,V018,NAV-27,Navigation,ECDIS procedure not followed,Closed,2025-02-16
+DEF0252,INS0071,V018,NAV-92,Navigation,Navigation light malfunction,Closed,2025-01-01
+DEF0253,INS0071,V018,STR-22,Structural,Watertight door defect,Closed,2025-01-20
+DEF0254,INS0071,V018,MAC-69,Machinery,Steering gear alarm fault,Closed,2024-12-28
+DEF0255,INS0071,V018,STR-97,Structural,Corrosion observed,Closed,2025-01-21
+DEF0256,INS0072,V018,ISM-95,ISM,Corrective action overdue,Open,
+DEF0257,INS0073,V019,POL-41,Pollution Prevention,OWS alarm issue,Closed,2024-01-25
+DEF0258,INS0073,V019,NAV-92,Navigation,Passage planning incomplete,Closed,2024-02-03
+DEF0259,INS0073,V019,FIR-79,Fire Safety,Fire detection system fault,Closed,2024-03-01
+DEF0260,INS0074,V019,ISM-64,ISM,Corrective action overdue,Closed,2024-09-06
+DEF0261,INS0074,V019,LIF-35,Life Saving,Emergency drill records incomplete,Closed,2024-08-10
+DEF0262,INS0074,V019,NAV-77,Navigation,Chart correction records incomplete,Closed,2024-09-19
+DEF0263,INS0074,V019,NAV-69,Navigation,Passage planning incomplete,Closed,2024-09-18
+DEF0264,INS0075,V019,STR-36,Structural,Watertight door defect,Closed,2025-03-05
+DEF0265,INS0075,V019,NAV-54,Navigation,Passage planning incomplete,Closed,2025-01-13
+DEF0266,INS0075,V019,STR-69,Structural,Watertight door defect,Closed,2025-02-21
+DEF0267,INS0076,V019,LIF-24,Life Saving,Lifeboat equipment defect,Closed,2025-07-23
+DEF0268,INS0076,V019,STR-87,Structural,Watertight door defect,Closed,2025-07-30
+DEF0269,INS0076,V019,ISM-96,ISM,Safety procedure not followed,Open,
+DEF0270,INS0076,V019,STR-12,Structural,Corrosion observed,Open,
+DEF0271,INS0076,V019,LIF-38,Life Saving,Lifejacket inventory discrepancy,Open,
+DEF0272,INS0077,V020,ISM-19,ISM,Corrective action overdue,Closed,2024-03-01
+DEF0273,INS0077,V020,POL-46,Pollution Prevention,Garbage record incomplete,Closed,2024-02-29
+DEF0274,INS0077,V020,MAC-49,Machinery,Bilge alarm malfunction,Closed,2024-02-24
+DEF0275,INS0077,V020,NAV-80,Navigation,ECDIS procedure not followed,Closed,2024-03-22
+DEF0276,INS0078,V020,ISM-55,ISM,Corrective action overdue,Closed,2024-09-12
+DEF0277,INS0078,V020,LIF-30,Life Saving,Lifeboat equipment defect,Closed,2024-10-07
+DEF0278,INS0078,V020,MAC-31,Machinery,Emergency generator starting failure,Closed,2024-09-30
+DEF0279,INS0078,V020,STR-61,Structural,Watertight door defect,Closed,2024-09-11
+DEF0280,INS0078,V020,ISM-73,ISM,Safety procedure not followed,Closed,2024-09-26
+DEF0281,INS0079,V020,ISM-80,ISM,Risk assessment incomplete,Closed,2025-03-15
+DEF0282,INS0080,V020,FIR-51,Fire Safety,Fire alarm malfunction,Open,
+DEF0283,INS0080,V020,MAC-48,Machinery,Main engine leakage observed,Closed,2025-07-27
+DEF0284,INS0080,V020,LIF-54,Life Saving,Emergency drill records incomplete,Closed,2025-07-16
+DEF0285,INS0080,V020,NAV-32,Navigation,Navigation light malfunction,Closed,2025-08-25
+DEF0286,INS0080,V020,POL-55,Pollution Prevention,Garbage record incomplete,Closed,2025-07-19

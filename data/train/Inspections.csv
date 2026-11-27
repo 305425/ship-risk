@@ -1,0 +1,281 @@
+inspection_id,vessel_id,inspection_date,inspection_port,inspection_authority,inspection_type,inspection_result,detention_flag
+INS0001,V001,2024-02-15,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0002,V001,2024-07-29,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0003,V001,2025-01-11,Singapore,Tokyo MOU,PSC,Major Deficiencies,No
+INS0004,V001,2025-06-29,Hamburg,USCG,Class,Detained,Yes
+INS0005,V002,2024-01-20,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0006,V002,2024-07-23,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0007,V002,2025-01-17,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0008,V002,2025-06-30,Singapore,Tokyo MOU,SIRE/CDI,Deficiencies Found,No
+INS0009,V003,2024-01-19,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0010,V003,2024-07-05,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0011,V003,2025-01-21,Hamburg,USCG,PSC,No Major Findings,No
+INS0012,V003,2025-07-04,Shanghai,Flag State,Flag State,Deficiencies Found,No
+INS0013,V004,2024-02-15,Hamburg,USCG,PSC,No Major Findings,No
+INS0014,V004,2024-07-08,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0015,V004,2025-01-01,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0016,V004,2025-05-26,Hamburg,USCG,PSC,Detained,Yes
+INS0017,V005,2024-02-25,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0018,V005,2024-07-10,Hamburg,USCG,PSC,No Major Findings,No
+INS0019,V005,2024-12-13,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0020,V005,2025-06-15,Singapore,Tokyo MOU,PSC,No Major Findings,No
+INS0021,V006,2024-02-25,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0022,V006,2024-07-20,Singapore,Tokyo MOU,PSC,No Major Findings,No
+INS0023,V006,2024-12-19,Hamburg,USCG,PSC,No Major Findings,No
+INS0024,V006,2025-07-05,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0025,V007,2024-01-27,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0026,V007,2024-07-14,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0027,V007,2024-12-22,Singapore,Tokyo MOU,PSC,No Major Findings,No
+INS0028,V007,2025-06-26,Hamburg,USCG,Class,Deficiencies Found,No
+INS0029,V008,2024-01-25,Singapore,Tokyo MOU,PSC,No Major Findings,No
+INS0030,V008,2024-08-04,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0031,V008,2025-01-09,Shanghai,Flag State,PSC,No Major Findings,No
+INS0032,V008,2025-07-04,Singapore,Tokyo MOU,Class,No Major Findings,No
+INS0033,V009,2024-02-07,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0034,V009,2024-07-27,Singapore,Tokyo MOU,PSC,No Major Findings,No
+INS0035,V009,2025-01-02,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0036,V009,2025-06-09,Shanghai,Flag State,Class,No Major Findings,No
+INS0037,V010,2024-01-28,Hamburg,USCG,PSC,No Major Findings,No
+INS0038,V010,2024-06-30,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0039,V010,2025-01-08,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0040,V010,2025-06-07,Hamburg,USCG,Class,Deficiencies Found,No
+INS0041,V011,2024-02-01,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0042,V011,2024-06-30,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0043,V011,2024-12-18,Shanghai,Flag State,PSC,No Major Findings,No
+INS0044,V011,2025-06-24,Singapore,Tokyo MOU,Class,Deficiencies Found,No
+INS0045,V012,2024-02-05,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0046,V012,2024-06-30,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0047,V012,2024-12-19,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0048,V012,2025-06-10,Shanghai,Flag State,Class,Deficiencies Found,No
+INS0049,V013,2024-02-05,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0050,V013,2024-07-12,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0051,V013,2024-12-14,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0052,V013,2025-05-28,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0053,V014,2024-02-21,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0054,V014,2024-08-01,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0055,V014,2024-12-25,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0056,V014,2025-06-13,Singapore,Tokyo MOU,Class,Deficiencies Found,No
+INS0057,V015,2024-02-22,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0058,V015,2024-07-27,Singapore,Tokyo MOU,PSC,No Major Findings,No
+INS0059,V015,2025-01-08,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0060,V015,2025-06-07,Shanghai,Flag State,Flag State,Deficiencies Found,No
+INS0061,V016,2024-02-02,Hamburg,USCG,PSC,No Major Findings,No
+INS0062,V016,2024-08-06,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0063,V016,2025-01-08,Singapore,Tokyo MOU,PSC,No Major Findings,No
+INS0064,V016,2025-06-13,Hamburg,USCG,Class,Deficiencies Found,No
+INS0065,V017,2024-02-08,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0066,V017,2024-07-25,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0067,V017,2024-12-20,Shanghai,Flag State,PSC,No Major Findings,No
+INS0068,V017,2025-05-26,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0069,V018,2024-02-02,Shanghai,Flag State,PSC,No Major Findings,No
+INS0070,V018,2024-08-01,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0071,V018,2024-12-13,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0072,V018,2025-05-31,Shanghai,Flag State,Flag State,No Major Findings,No
+INS0073,V019,2024-01-20,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0074,V019,2024-07-24,Shanghai,Flag State,PSC,Deficiencies Found,No
+INS0075,V019,2025-01-08,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0076,V019,2025-06-29,Hamburg,USCG,SIRE/CDI,Deficiencies Found,No
+INS0077,V020,2024-02-09,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0078,V020,2024-08-09,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0079,V020,2025-01-17,Shanghai,Flag State,PSC,No Major Findings,No
+INS0080,V020,2025-06-23,Singapore,Tokyo MOU,PSC,Deficiencies Found,No
+INS0081,V021,2023-03-15,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0082,V021,2023-09-15,Shanghai,Tokyo MOU,Class,Deficiencies Found,No
+INS0083,V021,2024-03-15,Singapore,Flag State,Flag State,Deficiencies Found,No
+INS0084,V021,2024-09-15,Rotterdam,Paris MOU,SIRE/CDI,Major Deficiencies,No
+INS0085,V021,2025-03-15,Fujairah,USCG,PSC,Detained,Yes
+INS0087,V022,2023-03-15,Shanghai,Tokyo MOU,Class,Deficiencies Found,No
+INS0088,V022,2023-09-15,Singapore,Flag State,Flag State,Deficiencies Found,No
+INS0089,V022,2024-03-15,Rotterdam,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0090,V022,2024-09-15,Fujairah,USCG,PSC,Major Deficiencies,No
+INS0091,V022,2025-03-15,Hamburg,Tokyo MOU,Class,Detained,Yes
+INS0093,V023,2023-03-15,Singapore,Flag State,Flag State,Deficiencies Found,No
+INS0094,V023,2023-09-15,Rotterdam,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0095,V023,2024-03-15,Fujairah,USCG,PSC,Deficiencies Found,No
+INS0096,V023,2024-09-15,Hamburg,Tokyo MOU,Class,Major Deficiencies,No
+INS0097,V023,2025-03-15,Shanghai,Flag State,Flag State,Detained,Yes
+INS0099,V024,2023-03-15,Rotterdam,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0100,V024,2023-09-15,Fujairah,USCG,PSC,Deficiencies Found,No
+INS0101,V024,2024-03-15,Hamburg,Tokyo MOU,Class,Deficiencies Found,No
+INS0102,V024,2024-09-15,Shanghai,Flag State,Flag State,Major Deficiencies,No
+INS0103,V024,2025-03-15,Singapore,Paris MOU,SIRE/CDI,Detained,Yes
+INS0105,V025,2023-03-15,Fujairah,USCG,PSC,Deficiencies Found,No
+INS0106,V025,2023-09-15,Hamburg,Tokyo MOU,Class,Deficiencies Found,No
+INS0107,V025,2024-03-15,Shanghai,Flag State,Flag State,Deficiencies Found,No
+INS0108,V025,2024-09-15,Singapore,Paris MOU,SIRE/CDI,Major Deficiencies,No
+INS0109,V025,2025-03-15,Rotterdam,USCG,PSC,Detained,Yes
+INS0111,V026,2023-03-15,Hamburg,Tokyo MOU,Class,Deficiencies Found,No
+INS0112,V026,2023-09-15,Shanghai,Flag State,Flag State,Deficiencies Found,No
+INS0113,V026,2024-03-15,Singapore,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0114,V026,2024-09-15,Rotterdam,USCG,PSC,Major Deficiencies,No
+INS0115,V026,2025-03-15,Fujairah,Tokyo MOU,Class,Detained,Yes
+INS0117,V027,2023-03-15,Shanghai,Flag State,Flag State,Deficiencies Found,No
+INS0118,V027,2023-09-15,Singapore,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0119,V027,2024-03-15,Rotterdam,USCG,PSC,Deficiencies Found,No
+INS0120,V027,2024-09-15,Fujairah,Tokyo MOU,Class,Major Deficiencies,No
+INS0121,V027,2025-03-15,Hamburg,Flag State,Flag State,Detained,Yes
+INS0123,V028,2023-03-15,Singapore,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0124,V028,2023-09-15,Rotterdam,USCG,PSC,Deficiencies Found,No
+INS0125,V028,2024-03-15,Fujairah,Tokyo MOU,Class,Deficiencies Found,No
+INS0126,V028,2024-09-15,Hamburg,Flag State,Flag State,Major Deficiencies,No
+INS0127,V028,2025-03-15,Shanghai,Paris MOU,SIRE/CDI,Detained,Yes
+INS0129,V029,2023-03-15,Rotterdam,USCG,PSC,Deficiencies Found,No
+INS0130,V029,2023-09-15,Fujairah,Tokyo MOU,Class,Deficiencies Found,No
+INS0131,V029,2024-03-15,Hamburg,Flag State,Flag State,Deficiencies Found,No
+INS0132,V029,2024-09-15,Shanghai,Paris MOU,SIRE/CDI,Major Deficiencies,No
+INS0133,V029,2025-03-15,Singapore,USCG,PSC,Detained,Yes
+INS0135,V030,2023-03-15,Fujairah,Tokyo MOU,Class,Deficiencies Found,No
+INS0136,V030,2023-09-15,Hamburg,Flag State,Flag State,Deficiencies Found,No
+INS0137,V030,2024-03-15,Shanghai,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0138,V030,2024-09-15,Singapore,USCG,PSC,Major Deficiencies,No
+INS0139,V030,2025-03-15,Rotterdam,Tokyo MOU,Class,Detained,Yes
+INS0141,V031,2023-03-15,Hamburg,Flag State,Flag State,Deficiencies Found,No
+INS0142,V031,2023-09-15,Shanghai,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0143,V031,2024-03-15,Singapore,USCG,PSC,Deficiencies Found,No
+INS0144,V031,2024-09-15,Rotterdam,Tokyo MOU,Class,Deficiencies Found,No
+INS0145,V031,2025-03-15,Fujairah,Flag State,Flag State,Deficiencies Found,No
+INS0147,V032,2023-03-15,Shanghai,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0148,V032,2023-09-15,Singapore,USCG,PSC,Deficiencies Found,No
+INS0149,V032,2024-03-15,Rotterdam,Tokyo MOU,Class,Deficiencies Found,No
+INS0150,V032,2024-09-15,Fujairah,Flag State,Flag State,Deficiencies Found,No
+INS0151,V032,2025-03-15,Hamburg,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0153,V033,2023-03-15,Singapore,USCG,PSC,Deficiencies Found,No
+INS0154,V033,2023-09-15,Rotterdam,Tokyo MOU,Class,Deficiencies Found,No
+INS0155,V033,2024-03-15,Fujairah,Flag State,Flag State,Deficiencies Found,No
+INS0156,V033,2024-09-15,Hamburg,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0157,V033,2025-03-15,Shanghai,USCG,PSC,Deficiencies Found,No
+INS0159,V034,2023-03-15,Rotterdam,Tokyo MOU,Class,Deficiencies Found,No
+INS0160,V034,2023-09-15,Fujairah,Flag State,Flag State,Deficiencies Found,No
+INS0161,V034,2024-03-15,Hamburg,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0162,V034,2024-09-15,Shanghai,USCG,PSC,Deficiencies Found,No
+INS0163,V034,2025-03-15,Singapore,Tokyo MOU,Class,Deficiencies Found,No
+INS0165,V035,2023-03-15,Fujairah,Flag State,Flag State,Deficiencies Found,No
+INS0166,V035,2023-09-15,Hamburg,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0167,V035,2024-03-15,Shanghai,USCG,PSC,Deficiencies Found,No
+INS0168,V035,2024-09-15,Singapore,Tokyo MOU,Class,Deficiencies Found,No
+INS0169,V035,2025-03-15,Rotterdam,Flag State,Flag State,Deficiencies Found,No
+INS0171,V036,2023-03-15,Hamburg,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0172,V036,2023-09-15,Shanghai,USCG,PSC,Deficiencies Found,No
+INS0173,V036,2024-03-15,Singapore,Tokyo MOU,Class,Deficiencies Found,No
+INS0174,V036,2024-09-15,Rotterdam,Flag State,Flag State,Deficiencies Found,No
+INS0175,V036,2025-03-15,Fujairah,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0177,V037,2023-03-15,Shanghai,USCG,PSC,Deficiencies Found,No
+INS0178,V037,2023-09-15,Singapore,Tokyo MOU,Class,Deficiencies Found,No
+INS0179,V037,2024-03-15,Rotterdam,Flag State,Flag State,Deficiencies Found,No
+INS0180,V037,2024-09-15,Fujairah,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0181,V037,2025-03-15,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0183,V038,2023-03-15,Singapore,Tokyo MOU,Class,Deficiencies Found,No
+INS0184,V038,2023-09-15,Rotterdam,Flag State,Flag State,Deficiencies Found,No
+INS0185,V038,2024-03-15,Fujairah,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0186,V038,2024-09-15,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0187,V038,2025-03-15,Shanghai,Tokyo MOU,Class,Deficiencies Found,No
+INS0189,V039,2023-03-15,Rotterdam,Flag State,Flag State,Deficiencies Found,No
+INS0190,V039,2023-09-15,Fujairah,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0191,V039,2024-03-15,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0192,V039,2024-09-15,Shanghai,Tokyo MOU,Class,Deficiencies Found,No
+INS0193,V039,2025-03-15,Singapore,Flag State,Flag State,Deficiencies Found,No
+INS0195,V040,2023-03-15,Fujairah,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0196,V040,2023-09-15,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0197,V040,2024-03-15,Shanghai,Tokyo MOU,Class,Deficiencies Found,No
+INS0198,V040,2024-09-15,Singapore,Flag State,Flag State,Deficiencies Found,No
+INS0199,V040,2025-03-15,Rotterdam,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0201,V041,2023-03-15,Hamburg,USCG,PSC,Deficiencies Found,No
+INS0202,V041,2023-09-15,Shanghai,Tokyo MOU,Class,Deficiencies Found,No
+INS0203,V041,2024-03-15,Singapore,Flag State,Flag State,Major Deficiencies,No
+INS0204,V041,2024-09-15,Rotterdam,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0205,V041,2025-03-15,Fujairah,USCG,PSC,No Major Findings,No
+INS0207,V042,2023-03-15,Shanghai,Tokyo MOU,Class,Deficiencies Found,No
+INS0208,V042,2023-09-15,Singapore,Flag State,Flag State,Deficiencies Found,No
+INS0209,V042,2024-03-15,Rotterdam,Paris MOU,SIRE/CDI,Major Deficiencies,No
+INS0210,V042,2024-09-15,Fujairah,USCG,PSC,No Major Findings,No
+INS0211,V042,2025-03-15,Hamburg,Tokyo MOU,Class,No Major Findings,No
+INS0213,V043,2023-03-15,Singapore,Flag State,Flag State,Deficiencies Found,No
+INS0214,V043,2023-09-15,Rotterdam,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0215,V043,2024-03-15,Fujairah,USCG,PSC,Major Deficiencies,No
+INS0216,V043,2024-09-15,Hamburg,Tokyo MOU,Class,No Major Findings,No
+INS0217,V043,2025-03-15,Shanghai,Flag State,Flag State,No Major Findings,No
+INS0219,V044,2023-03-15,Rotterdam,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0220,V044,2023-09-15,Fujairah,USCG,PSC,Deficiencies Found,No
+INS0221,V044,2024-03-15,Hamburg,Tokyo MOU,Class,Major Deficiencies,No
+INS0222,V044,2024-09-15,Shanghai,Flag State,Flag State,No Major Findings,No
+INS0223,V044,2025-03-15,Singapore,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0225,V045,2023-03-15,Fujairah,USCG,PSC,Deficiencies Found,No
+INS0226,V045,2023-09-15,Hamburg,Tokyo MOU,Class,Deficiencies Found,No
+INS0227,V045,2024-03-15,Shanghai,Flag State,Flag State,Major Deficiencies,No
+INS0228,V045,2024-09-15,Singapore,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0229,V045,2025-03-15,Rotterdam,USCG,PSC,No Major Findings,No
+INS0231,V046,2023-03-15,Hamburg,Tokyo MOU,Class,Deficiencies Found,No
+INS0232,V046,2023-09-15,Shanghai,Flag State,Flag State,Deficiencies Found,No
+INS0233,V046,2024-03-15,Singapore,Paris MOU,SIRE/CDI,Major Deficiencies,No
+INS0234,V046,2024-09-15,Rotterdam,USCG,PSC,No Major Findings,No
+INS0235,V046,2025-03-15,Fujairah,Tokyo MOU,Class,No Major Findings,No
+INS0237,V047,2023-03-15,Shanghai,Flag State,Flag State,Deficiencies Found,No
+INS0238,V047,2023-09-15,Singapore,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0239,V047,2024-03-15,Rotterdam,USCG,PSC,Major Deficiencies,No
+INS0240,V047,2024-09-15,Fujairah,Tokyo MOU,Class,No Major Findings,No
+INS0241,V047,2025-03-15,Hamburg,Flag State,Flag State,No Major Findings,No
+INS0243,V048,2023-03-15,Singapore,Paris MOU,SIRE/CDI,Deficiencies Found,No
+INS0244,V048,2023-09-15,Rotterdam,USCG,PSC,Deficiencies Found,No
+INS0245,V048,2024-03-15,Fujairah,Tokyo MOU,Class,Major Deficiencies,No
+INS0246,V048,2024-09-15,Hamburg,Flag State,Flag State,No Major Findings,No
+INS0247,V048,2025-03-15,Shanghai,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0249,V049,2023-03-15,Rotterdam,USCG,PSC,No Major Findings,No
+INS0250,V049,2023-09-15,Fujairah,Tokyo MOU,Class,No Major Findings,No
+INS0251,V049,2024-03-15,Hamburg,Flag State,Flag State,No Major Findings,No
+INS0252,V049,2024-09-15,Shanghai,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0253,V049,2025-03-15,Singapore,USCG,PSC,No Major Findings,No
+INS0255,V050,2023-03-15,Fujairah,Tokyo MOU,Class,No Major Findings,No
+INS0256,V050,2023-09-15,Hamburg,Flag State,Flag State,No Major Findings,No
+INS0257,V050,2024-03-15,Shanghai,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0258,V050,2024-09-15,Singapore,USCG,PSC,No Major Findings,No
+INS0259,V050,2025-03-15,Rotterdam,Tokyo MOU,Class,No Major Findings,No
+INS0261,V051,2023-03-15,Hamburg,Flag State,Flag State,No Major Findings,No
+INS0262,V051,2023-09-15,Shanghai,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0263,V051,2024-03-15,Singapore,USCG,PSC,No Major Findings,No
+INS0264,V051,2024-09-15,Rotterdam,Tokyo MOU,Class,No Major Findings,No
+INS0265,V051,2025-03-15,Fujairah,Flag State,Flag State,No Major Findings,No
+INS0267,V052,2023-03-15,Shanghai,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0268,V052,2023-09-15,Singapore,USCG,PSC,No Major Findings,No
+INS0269,V052,2024-03-15,Rotterdam,Tokyo MOU,Class,No Major Findings,No
+INS0270,V052,2024-09-15,Fujairah,Flag State,Flag State,No Major Findings,No
+INS0271,V052,2025-03-15,Hamburg,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0273,V053,2023-03-15,Singapore,USCG,PSC,No Major Findings,No
+INS0274,V053,2023-09-15,Rotterdam,Tokyo MOU,Class,No Major Findings,No
+INS0275,V053,2024-03-15,Fujairah,Flag State,Flag State,No Major Findings,No
+INS0276,V053,2024-09-15,Hamburg,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0277,V053,2025-03-15,Shanghai,USCG,PSC,No Major Findings,No
+INS0279,V054,2023-03-15,Rotterdam,Tokyo MOU,Class,No Major Findings,No
+INS0280,V054,2023-09-15,Fujairah,Flag State,Flag State,No Major Findings,No
+INS0281,V054,2024-03-15,Hamburg,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0282,V054,2024-09-15,Shanghai,USCG,PSC,No Major Findings,No
+INS0283,V054,2025-03-15,Singapore,Tokyo MOU,Class,No Major Findings,No
+INS0285,V055,2023-03-15,Fujairah,Flag State,Flag State,No Major Findings,No
+INS0286,V055,2023-09-15,Hamburg,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0287,V055,2024-03-15,Shanghai,USCG,PSC,No Major Findings,No
+INS0288,V055,2024-09-15,Singapore,Tokyo MOU,Class,No Major Findings,No
+INS0289,V055,2025-03-15,Rotterdam,Flag State,Flag State,No Major Findings,No
+INS0291,V056,2023-03-15,Hamburg,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0292,V056,2023-09-15,Shanghai,USCG,PSC,No Major Findings,No
+INS0293,V056,2024-03-15,Singapore,Tokyo MOU,Class,No Major Findings,No
+INS0294,V056,2024-09-15,Rotterdam,Flag State,Flag State,No Major Findings,No
+INS0295,V056,2025-03-15,Fujairah,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0297,V057,2023-03-15,Shanghai,USCG,PSC,No Major Findings,No
+INS0298,V057,2023-09-15,Singapore,Tokyo MOU,Class,No Major Findings,No
+INS0299,V057,2024-03-15,Rotterdam,Flag State,Flag State,No Major Findings,No
+INS0300,V057,2024-09-15,Fujairah,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0301,V057,2025-03-15,Hamburg,USCG,PSC,No Major Findings,No
+INS0303,V058,2023-03-15,Singapore,Tokyo MOU,Class,No Major Findings,No
+INS0304,V058,2023-09-15,Rotterdam,Flag State,Flag State,No Major Findings,No
+INS0305,V058,2024-03-15,Fujairah,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0306,V058,2024-09-15,Hamburg,USCG,PSC,No Major Findings,No
+INS0307,V058,2025-03-15,Shanghai,Tokyo MOU,Class,No Major Findings,No
+INS0309,V059,2023-03-15,Rotterdam,Flag State,Flag State,No Major Findings,No
+INS0310,V059,2023-09-15,Fujairah,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0311,V059,2024-03-15,Hamburg,USCG,PSC,No Major Findings,No
+INS0312,V059,2024-09-15,Shanghai,Tokyo MOU,Class,No Major Findings,No
+INS0313,V059,2025-03-15,Singapore,Flag State,Flag State,No Major Findings,No
+INS0315,V060,2023-03-15,Fujairah,Paris MOU,SIRE/CDI,No Major Findings,No
+INS0316,V060,2023-09-15,Hamburg,USCG,PSC,No Major Findings,No
+INS0317,V060,2024-03-15,Shanghai,Tokyo MOU,Class,No Major Findings,No
+INS0318,V060,2024-09-15,Singapore,Flag State,Flag State,No Major Findings,No
+INS0319,V060,2025-03-15,Rotterdam,Paris MOU,SIRE/CDI,No Major Findings,No

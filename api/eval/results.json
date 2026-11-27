@@ -1,0 +1,509 @@
+{
+ "top_k": 5,
+ "queries": 20,
+ "v001_detention": {
+  "refused": false,
+  "answer": "MV Alpha (V001) was detained on 2025-06-29 following inspection INS0004 at Hamburg. The stated reason for the detention was \u201cCritical fire safety and emergency machinery deficiencies.\u201d [1] [2]",
+  "citations": [
+   "detentions:INS0004",
+   "report:INS0004"
+  ]
+ },
+ "runs": {
+  "hybrid": {
+   "metrics": {
+    "recall": 0.99,
+    "precision": 0.5425,
+    "hit_rate": 1.0,
+    "mrr": 0.9041666666666666
+   },
+   "per_query": [
+    {
+     "query": "Why was the vessel detained?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "report:INS0004",
+      "<miss>",
+      "detentions:INS0004",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Why was the vessel detained?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "<miss>",
+      "report:INS0016",
+      "detentions:INS0016",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Which fire safety deficiencies are still open?",
+     "recall": 0.8,
+     "missed": [
+      "deficiencies:DEF0011"
+     ],
+     "retrieved": [
+      "deficiencies:DEF0012",
+      "deficiencies:DEF0019",
+      "<miss>",
+      "deficiencies:DEF0010",
+      "deficiencies:DEF0020"
+     ]
+    },
+    {
+     "query": "fire pump pressure low",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0020",
+      "deficiencies:DEF0010",
+      "deficiencies:DEF0021",
+      "deficiencies:DEF0011",
+      "deficiencies:DEF0001"
+     ]
+    },
+    {
+     "query": "What happened at the Hamburg class inspection in June 2025?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "report:INS0004",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Is the emergency generator maintenance overdue?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "maintenance:MAIN0003",
+      "maintenance:MAIN0005",
+      "maintenance:MAIN0009",
+      "maintenance:MAIN0001",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Emergency generator failures",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "equipment_failures:FAIL0006",
+      "equipment_failures:FAIL0001",
+      "equipment_failures:FAIL0002",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Has the master completed training and is the STCW certificate valid?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "crew:C0001",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Overdue audit findings",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "audit_findings:AUD0004",
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "What is the current risk score and what drives it?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "summary:V001",
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "What is the current risk score and what drives it?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "summary:V004",
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "ECDIS procedure not followed",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0070",
+      "deficiencies:DEF0066",
+      "deficiencies:DEF0058",
+      "deficiencies:DEF0063",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Open navigation deficiencies",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0068",
+      "deficiencies:DEF0070"
+     ]
+    },
+    {
+     "query": "Overdue ECDIS maintenance",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "maintenance:MAIN0063",
+      "maintenance:MAIN0069",
+      "maintenance:MAIN0062",
+      "maintenance:MAIN0061",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Inspection reports from early 2025",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "report:INS0015",
+      "report:INS0016"
+     ]
+    },
+    {
+     "query": "Chart correction records incomplete",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0068",
+      "deficiencies:DEF0057",
+      "<miss>",
+      "deficiencies:DEF0060",
+      "deficiencies:DEF0059"
+     ]
+    },
+    {
+     "query": "Is there an open garbage record deficiency?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0109",
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Watertight door defects found at inspections",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0100",
+      "deficiencies:DEF0099",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Corrosion observed",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "<miss>",
+      "<miss>",
+      "deficiencies:DEF0177",
+      "deficiencies:DEF0179",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Oily water separator alarm issues",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0188",
+      "deficiencies:DEF0187",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    }
+   ]
+  },
+  "hybrid + rerank": {
+   "metrics": {
+    "recall": 0.95,
+    "precision": 0.5025000000000001,
+    "hit_rate": 1.0,
+    "mrr": 0.9166666666666666
+   },
+   "per_query": [
+    {
+     "query": "Why was the vessel detained?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "detentions:INS0004",
+      "report:INS0004",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Why was the vessel detained?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "detentions:INS0016",
+      "report:INS0016",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Which fire safety deficiencies are still open?",
+     "recall": 0.8,
+     "missed": [
+      "deficiencies:DEF0010"
+     ],
+     "retrieved": [
+      "deficiencies:DEF0019",
+      "deficiencies:DEF0012",
+      "deficiencies:DEF0020",
+      "deficiencies:DEF0011",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "fire pump pressure low",
+     "recall": 0.2,
+     "missed": [
+      "deficiencies:DEF0010",
+      "deficiencies:DEF0011",
+      "deficiencies:DEF0021",
+      "deficiencies:DEF0001"
+     ],
+     "retrieved": [
+      "<miss>",
+      "<miss>",
+      "deficiencies:DEF0020",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "What happened at the Hamburg class inspection in June 2025?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "report:INS0004",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Is the emergency generator maintenance overdue?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "maintenance:MAIN0009",
+      "maintenance:MAIN0005",
+      "maintenance:MAIN0003",
+      "maintenance:MAIN0001",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Emergency generator failures",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "equipment_failures:FAIL0006",
+      "equipment_failures:FAIL0001",
+      "equipment_failures:FAIL0002",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Has the master completed training and is the STCW certificate valid?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "<miss>",
+      "crew:C0001",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Overdue audit findings",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "audit_findings:AUD0004",
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "What is the current risk score and what drives it?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "summary:V001",
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "What is the current risk score and what drives it?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "summary:V004",
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "ECDIS procedure not followed",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0070",
+      "deficiencies:DEF0058",
+      "deficiencies:DEF0063",
+      "deficiencies:DEF0066",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Open navigation deficiencies",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0070",
+      "deficiencies:DEF0068"
+     ]
+    },
+    {
+     "query": "Overdue ECDIS maintenance",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "maintenance:MAIN0063",
+      "maintenance:MAIN0062",
+      "maintenance:MAIN0061",
+      "maintenance:MAIN0069",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Inspection reports from early 2025",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "report:INS0016",
+      "report:INS0015"
+     ]
+    },
+    {
+     "query": "Chart correction records incomplete",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0068",
+      "deficiencies:DEF0057",
+      "deficiencies:DEF0059",
+      "deficiencies:DEF0060",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Is there an open garbage record deficiency?",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0109",
+      "<miss>",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Watertight door defects found at inspections",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0099",
+      "deficiencies:DEF0100",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Corrosion observed",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "<miss>",
+      "deficiencies:DEF0179",
+      "deficiencies:DEF0177",
+      "<miss>",
+      "<miss>"
+     ]
+    },
+    {
+     "query": "Oily water separator alarm issues",
+     "recall": 1.0,
+     "missed": [],
+     "retrieved": [
+      "deficiencies:DEF0187",
+      "deficiencies:DEF0188",
+      "<miss>",
+      "<miss>",
+      "<miss>"
+     ]
+    }
+   ]
+  }
+ }
+}

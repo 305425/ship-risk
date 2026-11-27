@@ -1,0 +1,67 @@
+# Retrieval golden set for the evidence endpoint (scored with ragwire.eval).
+# Every query carries the filters the endpoint would build: vessel_id always,
+# plus the optional filters a user or the assistant would add.
+match_field: evidence_id
+match_mode: exact
+queries:
+  - query: Why was the vessel detained?
+    filters: {vessel_id: V001}
+    expected: ["detentions:INS0004", "report:INS0004"]
+  - query: Why was the vessel detained?
+    filters: {vessel_id: V004}
+    expected: ["detentions:INS0016", "report:INS0016"]
+  - query: Which fire safety deficiencies are still open?
+    filters: {vessel_id: V001, status: open, category: fire safety}
+    expected: ["deficiencies:DEF0010", "deficiencies:DEF0011", "deficiencies:DEF0012", "deficiencies:DEF0019", "deficiencies:DEF0020"]
+    note: V001 has 6 open fire safety items; top 5 can hold at most 5
+  - query: fire pump pressure low
+    filters: {vessel_id: V001, source_type: record, table: deficiencies}
+    expected: ["deficiencies:DEF0010", "deficiencies:DEF0011", "deficiencies:DEF0020", "deficiencies:DEF0021", "deficiencies:DEF0001"]
+  - query: What happened at the Hamburg class inspection in June 2025?
+    filters: {vessel_id: V001, source_type: report}
+    expected: ["report:INS0004"]
+  - query: Is the emergency generator maintenance overdue?
+    filters: {vessel_id: V001, table: maintenance, status: overdue}
+    expected: ["maintenance:MAIN0001", "maintenance:MAIN0003", "maintenance:MAIN0005", "maintenance:MAIN0009"]
+  - query: Emergency generator failures
+    filters: {vessel_id: V001, table: equipment_failures}
+    expected: ["equipment_failures:FAIL0001", "equipment_failures:FAIL0002", "equipment_failures:FAIL0006"]
+  - query: Has the master completed training and is the STCW certificate valid?
+    filters: {vessel_id: V001, table: crew}
+    expected: ["crew:C0001"]
+  - query: Overdue audit findings
+    filters: {vessel_id: V001, table: audit_findings}
+    expected: ["audit_findings:AUD0004"]
+  - query: What is the current risk score and what drives it?
+    filters: {vessel_id: V001}
+    expected: ["summary:V001"]
+  - query: What is the current risk score and what drives it?
+    filters: {vessel_id: V004}
+    expected: ["summary:V004"]
+  - query: ECDIS procedure not followed
+    filters: {vessel_id: V004, table: deficiencies}
+    expected: ["deficiencies:DEF0070", "deficiencies:DEF0058", "deficiencies:DEF0063", "deficiencies:DEF0066"]
+  - query: Open navigation deficiencies
+    filters: {vessel_id: V004, status: open, category: navigation}
+    expected: ["deficiencies:DEF0068", "deficiencies:DEF0070"]
+  - query: Overdue ECDIS maintenance
+    filters: {vessel_id: V004, table: maintenance, status: overdue}
+    expected: ["maintenance:MAIN0061", "maintenance:MAIN0062", "maintenance:MAIN0063", "maintenance:MAIN0069"]
+  - query: Inspection reports from early 2025
+    filters: {vessel_id: V004, source_type: report, from: "2025-01-01", to: "2025-06-30"}
+    expected: ["report:INS0015", "report:INS0016"]
+  - query: Chart correction records incomplete
+    filters: {vessel_id: V004}
+    expected: ["deficiencies:DEF0068", "deficiencies:DEF0057", "deficiencies:DEF0059", "deficiencies:DEF0060"]
+  - query: Is there an open garbage record deficiency?
+    filters: {vessel_id: V007, status: open}
+    expected: ["deficiencies:DEF0109"]
+  - query: Watertight door defects found at inspections
+    filters: {vessel_id: V007, table: deficiencies}
+    expected: ["deficiencies:DEF0099", "deficiencies:DEF0100"]
+  - query: Corrosion observed
+    filters: {vessel_id: V013}
+    expected: ["deficiencies:DEF0177", "deficiencies:DEF0179"]
+  - query: Oily water separator alarm issues
+    filters: {vessel_id: V013, table: deficiencies}
+    expected: ["deficiencies:DEF0187", "deficiencies:DEF0188"]

@@ -1,0 +1,60 @@
+# Coolify deployment. Set the variables below in Coolify's Environment Variables tab.
+# The `web` service gets the public domain (SERVICE_FQDN_WEB_80 asks Coolify to generate one).
+x-api-env: &api-env
+  environment:
+    DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-shiprisk}:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}@postgres:5432/shiprisk
+    QDRANT_URL: http://qdrant:6333
+    API_KEY: ${API_KEY:?set API_KEY}
+    LLM_PROVIDER: ${LLM_PROVIDER:-openai}
+    OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    GOOGLE_API_KEY: ${GOOGLE_API_KEY:-}
+    CHAINLIT_AUTH_SECRET: ${CHAINLIT_AUTH_SECRET:?set CHAINLIT_AUTH_SECRET}
+    AS_OF: ${AS_OF:-}
+    LANGSMITH_TRACING: ${LANGSMITH_TRACING:-false}
+    LANGSMITH_ENDPOINT: ${LANGSMITH_ENDPOINT:-https://api.smith.langchain.com}
+    LANGSMITH_API_KEY: ${LANGSMITH_API_KEY:-}
+    LANGSMITH_PROJECT: ${LANGSMITH_PROJECT:-ship-risk}
+    REPORTS_DIR: /app/reports
+    MLFLOW_DIR: /app/mlflow
+    FASTEMBED_CACHE_PATH: /var/cache/fastembed
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: shiprisk
+      POSTGRES_USER: ${POSTGRES_USER:-shiprisk}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes: [pg_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-shiprisk} -d shiprisk"]
+      interval: 5s
+      retries: 10
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    volumes: [qdrant_data:/qdrant/storage]
+
+  api:
+    build: ./api
+    <<: *api-env
+    volumes:
+      - reports_data:/app/reports
+      - mlflow_data:/app/mlflow
+      - fastembed_cache:/var/cache/fastembed
+    depends_on:
+      postgres: { condition: service_healthy }
+      qdrant: { condition: service_started }
+
+  web:
+    build: ./web
+    environment:
+      SERVICE_FQDN_WEB_80: ""
+    depends_on: [api]
+
+volumes:
+  pg_data:
+  qdrant_data:
+  reports_data:
+  mlflow_data:
+  fastembed_cache:

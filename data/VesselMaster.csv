@@ -1,0 +1,21 @@
+vessel_id,imo_number,vessel_name,vessel_type,build_year,flag_state
+V001,9700001,MV Alpha,Bulk Carrier,2008,Panama
+V002,9700002,MV Beta,Oil Tanker,2009,Liberia
+V003,9700003,MV Gamma,Container Ship,2010,Singapore
+V004,9700004,MV Delta,Chemical Tanker,2011,Marshall Islands
+V005,9700005,MV Echo,LNG Carrier,2012,Malta
+V006,9700006,MV Falcon,Bulk Carrier,2013,Panama
+V007,9700007,MV Horizon,Oil Tanker,2014,Liberia
+V008,9700008,MV Orion,Container Ship,2015,Singapore
+V009,9700009,MV Pacific,Chemical Tanker,2016,Marshall Islands
+V010,9700010,MV Quantum,LNG Carrier,2017,Malta
+V011,9700011,MV Ranger,Bulk Carrier,2018,Panama
+V012,9700012,MV Sirius,Oil Tanker,2019,Liberia
+V013,9700013,MV Titan,Container Ship,2020,Singapore
+V014,9700014,MV Unity,Chemical Tanker,2021,Marshall Islands
+V015,9700015,MV Vega,LNG Carrier,2022,Malta
+V016,9700016,MV Voyager,Bulk Carrier,2023,Panama
+V017,9700017,MV Wave,Oil Tanker,2007,Liberia
+V018,9700018,MV Zenith,Container Ship,2008,Singapore
+V019,9700019,MV Atlas,Chemical Tanker,2009,Marshall Islands
+V020,9700020,MV Neptune,LNG Carrier,2010,Malta

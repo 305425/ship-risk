@@ -1,0 +1,13 @@
+# Descriptive tags the LLM adds to each synthetic inspection report.
+# Identity fields (vessel_id, inspection_id, date, authority) are written by make_reports,
+# not extracted here, so a tagging mistake can never attach a report to the wrong vessel.
+fields:
+  - name: deficiency_themes
+    type: list
+    description: Main problem areas raised in the report
+    values: [fire safety, navigation, life saving, machinery, ism, pollution prevention, structural]
+  - name: equipment_mentioned
+    type: list
+    description: Shipboard equipment named in the deficiencies
+    values: [fire pump, emergency generator, steering gear, ecdis, lifeboat, oily water separator, main engine]
+char_limit: 6000

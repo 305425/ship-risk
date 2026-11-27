@@ -1,0 +1,62 @@
+x-api-env: &api-env
+  env_file: .env
+  environment:
+    DATABASE_URL: postgresql+psycopg://${POSTGRES_USER}:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}@postgres:5432/shiprisk
+    QDRANT_URL: http://qdrant:6333
+    API_KEY: ${API_KEY:?set API_KEY in .env}
+    REPORTS_DIR: /app/reports
+    MLFLOW_DIR: /app/mlflow
+    FASTEMBED_CACHE_PATH: /var/cache/fastembed
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: shiprisk
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    ports: ["5433:5432"]
+    volumes: [pg_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d shiprisk"]
+      interval: 5s
+      retries: 10
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    volumes: [qdrant_data:/qdrant/storage]
+
+  api:
+    image: ship-risk-api
+    build: ./api
+    <<: *api-env
+    volumes: [reports_data:/app/reports, ./api/mlflow:/app/mlflow]
+    depends_on:
+      postgres: { condition: service_healthy }
+      qdrant: { condition: service_started }
+
+  ingest:
+    image: ship-risk-api
+    <<: *api-env
+    command: sh -c "alembic upgrade head && python -m ingest.load_csvs /app/data && python -m ingest.index"
+    volumes: [./data:/app/data:ro, reports_data:/app/reports]
+    depends_on:
+      postgres: { condition: service_healthy }
+      qdrant: { condition: service_started }
+    profiles: [setup]
+
+  mlflow:
+    image: ship-risk-api
+    command: ["mlflow", "ui", "--backend-store-uri", "sqlite:////app/mlflow/mlflow.db", "--host", "0.0.0.0", "--port", "5000"]
+    volumes: [./api/mlflow:/app/mlflow]
+    ports: ["5000:5000"]
+
+  web:
+    build: ./web
+    ports: ["${WEB_PORT:-8080}:80"]
+    depends_on: [api]
+
+volumes:
+  pg_data:
+  qdrant_data:
+  reports_data:

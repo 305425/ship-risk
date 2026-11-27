@@ -1,0 +1,158 @@
+failure_id,vessel_id,equipment_name,equipment_failure_date,equipment_failure_description
+FAIL0001,V001,Emergency Generator,2025-04-11,Starting failure
+FAIL0002,V001,Emergency Generator,2025-11-09,Battery charging issue
+FAIL0003,V001,Fire Pump,2025-06-23,Battery charging issue
+FAIL0004,V001,Fire Pump,2026-08-15,Starting failure
+FAIL0005,V001,Oil Water Separator,2026-08-11,Intermittent fault
+FAIL0006,V001,Emergency Generator,2026-05-17,Intermittent fault
+FAIL0007,V002,Lifeboat,2026-04-15,Low pressure
+FAIL0008,V002,Lifeboat,2025-06-23,Starting failure
+FAIL0009,V002,Emergency Generator,2025-11-12,Leakage observed
+FAIL0010,V002,Steering Gear,2025-09-16,Intermittent fault
+FAIL0011,V002,Oil Water Separator,2025-12-22,Low pressure
+FAIL0012,V002,ECDIS,2025-08-26,Battery charging issue
+FAIL0013,V002,ECDIS,2025-12-23,Intermittent fault
+FAIL0014,V002,ECDIS,2026-06-07,Leakage observed
+FAIL0015,V002,Oil Water Separator,2025-03-30,Battery charging issue
+FAIL0016,V003,Emergency Generator,2026-07-13,Alarm malfunction
+FAIL0017,V003,Lifeboat,2025-03-29,Intermittent fault
+FAIL0018,V003,Fire Pump,2025-04-16,Intermittent fault
+FAIL0019,V003,Fire Pump,2025-10-26,Leakage observed
+FAIL0020,V003,Oil Water Separator,2025-10-02,Starting failure
+FAIL0021,V003,Lifeboat,2026-02-18,Alarm malfunction
+FAIL0022,V003,Emergency Generator,2026-05-21,Battery charging issue
+FAIL0023,V003,Main Engine,2025-05-15,Intermittent fault
+FAIL0024,V003,Main Engine,2025-04-14,Low pressure
+FAIL0025,V003,Emergency Generator,2026-06-30,Low pressure
+FAIL0026,V004,ECDIS,2025-11-21,Leakage observed
+FAIL0027,V004,ECDIS,2025-03-24,Starting failure
+FAIL0028,V004,ECDIS,2025-10-20,Battery charging issue
+FAIL0029,V004,Oil Water Separator,2025-05-11,Alarm malfunction
+FAIL0030,V004,ECDIS,2025-10-11,Alarm malfunction
+FAIL0031,V005,Main Engine,2026-02-25,Battery charging issue
+FAIL0032,V005,Steering Gear,2026-06-20,Low pressure
+FAIL0033,V005,Oil Water Separator,2026-08-06,Battery charging issue
+FAIL0034,V005,Main Engine,2026-06-05,Low pressure
+FAIL0035,V005,Main Engine,2026-06-16,Low pressure
+FAIL0036,V006,Steering Gear,2026-04-19,Battery charging issue
+FAIL0037,V006,Steering Gear,2026-07-07,Intermittent fault
+FAIL0038,V006,Oil Water Separator,2025-07-13,Battery charging issue
+FAIL0039,V006,Emergency Generator,2025-08-08,Alarm malfunction
+FAIL0040,V006,Steering Gear,2026-08-07,Intermittent fault
+FAIL0041,V006,Lifeboat,2026-07-08,Battery charging issue
+FAIL0042,V006,ECDIS,2026-07-18,Alarm malfunction
+FAIL0043,V007,Main Engine,2026-05-09,Low pressure
+FAIL0044,V007,Fire Pump,2025-07-09,Intermittent fault
+FAIL0045,V007,ECDIS,2025-11-28,Intermittent fault
+FAIL0046,V007,Fire Pump,2026-05-27,Leakage observed
+FAIL0047,V007,Steering Gear,2026-02-23,Battery charging issue
+FAIL0048,V007,ECDIS,2025-05-11,Low pressure
+FAIL0049,V007,Fire Pump,2026-02-08,Battery charging issue
+FAIL0050,V007,Lifeboat,2025-11-10,Leakage observed
+FAIL0051,V007,Fire Pump,2026-06-10,Low pressure
+FAIL0052,V007,Fire Pump,2026-02-15,Low pressure
+FAIL0053,V008,Oil Water Separator,2025-12-21,Battery charging issue
+FAIL0054,V008,ECDIS,2025-09-16,Low pressure
+FAIL0055,V008,Lifeboat,2026-01-13,Battery charging issue
+FAIL0056,V008,Emergency Generator,2026-07-14,Leakage observed
+FAIL0057,V008,Steering Gear,2026-06-13,Starting failure
+FAIL0058,V008,Steering Gear,2025-07-22,Low pressure
+FAIL0059,V008,Main Engine,2026-07-11,Intermittent fault
+FAIL0060,V008,ECDIS,2025-07-29,Low pressure
+FAIL0061,V008,Fire Pump,2025-10-09,Alarm malfunction
+FAIL0062,V008,Emergency Generator,2025-04-22,Alarm malfunction
+FAIL0063,V009,Emergency Generator,2025-06-28,Low pressure
+FAIL0064,V009,Main Engine,2026-05-02,Starting failure
+FAIL0065,V009,Fire Pump,2026-04-22,Leakage observed
+FAIL0066,V009,Fire Pump,2026-08-17,Alarm malfunction
+FAIL0067,V009,Lifeboat,2025-06-04,Starting failure
+FAIL0068,V009,Main Engine,2025-09-01,Battery charging issue
+FAIL0069,V009,Oil Water Separator,2026-08-15,Alarm malfunction
+FAIL0070,V009,ECDIS,2026-08-03,Starting failure
+FAIL0071,V009,Fire Pump,2025-08-24,Alarm malfunction
+FAIL0072,V009,Lifeboat,2025-08-25,Intermittent fault
+FAIL0073,V010,Oil Water Separator,2026-03-19,Battery charging issue
+FAIL0074,V010,Lifeboat,2026-04-26,Battery charging issue
+FAIL0075,V010,Oil Water Separator,2026-01-18,Alarm malfunction
+FAIL0076,V010,Emergency Generator,2026-05-31,Low pressure
+FAIL0077,V010,Main Engine,2026-06-12,Low pressure
+FAIL0078,V011,Lifeboat,2026-04-01,Leakage observed
+FAIL0079,V011,ECDIS,2025-09-30,Battery charging issue
+FAIL0080,V011,Emergency Generator,2026-03-04,Low pressure
+FAIL0081,V011,Emergency Generator,2026-02-15,Battery charging issue
+FAIL0082,V011,ECDIS,2026-08-06,Low pressure
+FAIL0083,V011,Emergency Generator,2026-07-02,Low pressure
+FAIL0084,V012,Fire Pump,2026-04-17,Leakage observed
+FAIL0085,V012,Oil Water Separator,2025-06-24,Alarm malfunction
+FAIL0086,V012,ECDIS,2025-10-09,Low pressure
+FAIL0087,V012,Oil Water Separator,2026-02-02,Low pressure
+FAIL0088,V012,Steering Gear,2026-07-01,Intermittent fault
+FAIL0089,V012,Main Engine,2026-06-16,Alarm malfunction
+FAIL0090,V012,ECDIS,2025-07-23,Intermittent fault
+FAIL0091,V012,Main Engine,2026-05-08,Starting failure
+FAIL0092,V012,Main Engine,2025-04-19,Low pressure
+FAIL0093,V013,ECDIS,2025-06-04,Starting failure
+FAIL0094,V013,Lifeboat,2026-06-19,Starting failure
+FAIL0095,V013,Main Engine,2025-07-04,Leakage observed
+FAIL0096,V013,Steering Gear,2025-05-23,Low pressure
+FAIL0097,V013,Fire Pump,2025-09-23,Battery charging issue
+FAIL0098,V013,Oil Water Separator,2026-01-29,Battery charging issue
+FAIL0099,V013,Fire Pump,2025-09-02,Low pressure
+FAIL0100,V013,Main Engine,2025-12-26,Low pressure
+FAIL0101,V014,ECDIS,2026-02-04,Battery charging issue
+FAIL0102,V014,Main Engine,2026-02-26,Low pressure
+FAIL0103,V014,Lifeboat,2025-03-31,Battery charging issue
+FAIL0104,V014,ECDIS,2026-07-21,Intermittent fault
+FAIL0105,V014,Lifeboat,2025-08-26,Low pressure
+FAIL0106,V014,ECDIS,2026-04-30,Low pressure
+FAIL0107,V014,Main Engine,2025-09-29,Battery charging issue
+FAIL0108,V014,Fire Pump,2026-04-09,Low pressure
+FAIL0109,V014,Oil Water Separator,2025-10-20,Intermittent fault
+FAIL0110,V015,Steering Gear,2025-10-14,Battery charging issue
+FAIL0111,V015,Oil Water Separator,2025-09-23,Alarm malfunction
+FAIL0112,V015,Fire Pump,2026-07-08,Low pressure
+FAIL0113,V015,ECDIS,2026-02-28,Battery charging issue
+FAIL0114,V015,Fire Pump,2025-09-27,Intermittent fault
+FAIL0115,V015,Fire Pump,2026-04-06,Intermittent fault
+FAIL0116,V016,Emergency Generator,2026-07-28,Starting failure
+FAIL0117,V016,Oil Water Separator,2025-03-31,Leakage observed
+FAIL0118,V016,Fire Pump,2025-10-29,Starting failure
+FAIL0119,V016,ECDIS,2026-01-30,Battery charging issue
+FAIL0120,V016,Oil Water Separator,2026-02-03,Starting failure
+FAIL0121,V016,Fire Pump,2025-12-25,Battery charging issue
+FAIL0122,V016,Emergency Generator,2026-06-25,Starting failure
+FAIL0123,V016,Fire Pump,2025-05-02,Alarm malfunction
+FAIL0124,V017,Fire Pump,2025-05-26,Battery charging issue
+FAIL0125,V017,Main Engine,2025-07-21,Starting failure
+FAIL0126,V017,Fire Pump,2025-04-08,Alarm malfunction
+FAIL0127,V017,Steering Gear,2026-05-14,Alarm malfunction
+FAIL0128,V017,Lifeboat,2025-10-15,Low pressure
+FAIL0129,V017,Main Engine,2025-05-13,Low pressure
+FAIL0130,V017,ECDIS,2025-12-10,Leakage observed
+FAIL0131,V017,ECDIS,2026-08-21,Starting failure
+FAIL0132,V017,ECDIS,2025-08-29,Intermittent fault
+FAIL0133,V017,Fire Pump,2025-04-22,Battery charging issue
+FAIL0134,V018,ECDIS,2026-01-21,Starting failure
+FAIL0135,V018,Oil Water Separator,2025-03-25,Alarm malfunction
+FAIL0136,V018,Steering Gear,2026-06-18,Starting failure
+FAIL0137,V018,Emergency Generator,2026-01-10,Leakage observed
+FAIL0138,V018,Emergency Generator,2025-12-17,Low pressure
+FAIL0139,V018,Oil Water Separator,2026-07-17,Battery charging issue
+FAIL0140,V019,ECDIS,2026-05-18,Battery charging issue
+FAIL0141,V019,Steering Gear,2026-07-25,Battery charging issue
+FAIL0142,V019,Oil Water Separator,2026-06-23,Intermittent fault
+FAIL0143,V019,Oil Water Separator,2025-06-13,Alarm malfunction
+FAIL0144,V019,ECDIS,2026-01-31,Low pressure
+FAIL0145,V019,Steering Gear,2025-11-04,Starting failure
+FAIL0146,V019,ECDIS,2025-06-13,Battery charging issue
+FAIL0147,V019,Oil Water Separator,2025-08-02,Alarm malfunction
+FAIL0148,V019,Oil Water Separator,2025-08-28,Leakage observed
+FAIL0149,V020,Emergency Generator,2026-02-13,Leakage observed
+FAIL0150,V020,Oil Water Separator,2025-03-28,Low pressure
+FAIL0151,V020,Oil Water Separator,2025-11-23,Battery charging issue
+FAIL0152,V020,Main Engine,2026-05-02,Intermittent fault
+FAIL0153,V020,Emergency Generator,2025-12-12,Starting failure
+FAIL0154,V020,Fire Pump,2025-08-23,Leakage observed
+FAIL0155,V020,Main Engine,2026-08-18,Low pressure
+FAIL0156,V020,Steering Gear,2025-12-22,Leakage observed
+FAIL0157,V020,ECDIS,2025-05-26,Alarm malfunction

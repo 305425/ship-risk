@@ -1,0 +1,241 @@
+crew_id,vessel_id,rank,join_date,rank_experience_months,training_status,stcw_status
+C0001,V001,Master,2026-07-31,59,Pending,Expiring Soon
+C0002,V001,Chief Engineer,2026-07-18,182,Pending,Valid
+C0003,V001,Chief Officer,2026-06-30,186,Compliant,Valid
+C0004,V001,Second Engineer,2026-08-01,147,Compliant,Valid
+C0005,V001,ETO,2026-08-19,67,Compliant,Valid
+C0006,V001,AB,2025-09-07,238,Compliant,Valid
+C0007,V001,Oiler,2025-02-17,98,Compliant,Valid
+C0008,V001,Cook,2024-10-27,233,Compliant,Valid
+C0009,V001,Master,2024-10-07,274,Compliant,Valid
+C0010,V001,Chief Engineer,2026-06-28,42,Compliant,Valid
+C0011,V001,Chief Officer,2026-05-26,225,Compliant,Valid
+C0012,V001,Second Engineer,2025-12-04,254,Compliant,Valid
+C0013,V002,Master,2025-05-11,193,Compliant,Valid
+C0014,V002,Chief Engineer,2025-09-11,38,Compliant,Valid
+C0015,V002,Chief Officer,2024-10-06,190,Compliant,Valid
+C0016,V002,Second Engineer,2025-08-21,25,Compliant,Valid
+C0017,V002,ETO,2025-01-07,30,Compliant,Valid
+C0018,V002,AB,2024-03-16,258,Compliant,Valid
+C0019,V002,Oiler,2024-04-22,85,Compliant,Valid
+C0020,V002,Cook,2024-05-08,109,Compliant,Valid
+C0021,V002,Master,2026-03-20,163,Compliant,Valid
+C0022,V002,Chief Engineer,2024-02-27,183,Compliant,Valid
+C0023,V002,Chief Officer,2026-05-19,191,Compliant,Valid
+C0024,V002,Second Engineer,2026-02-02,78,Compliant,Valid
+C0025,V003,Master,2023-12-23,115,Compliant,Valid
+C0026,V003,Chief Engineer,2024-04-22,285,Compliant,Valid
+C0027,V003,Chief Officer,2025-01-06,93,Compliant,Valid
+C0028,V003,Second Engineer,2025-08-15,157,Compliant,Valid
+C0029,V003,ETO,2025-03-01,273,Compliant,Valid
+C0030,V003,AB,2024-07-08,31,Compliant,Valid
+C0031,V003,Oiler,2025-06-12,292,Compliant,Valid
+C0032,V003,Cook,2025-06-13,113,Compliant,Valid
+C0033,V003,Master,2024-03-29,272,Compliant,Valid
+C0034,V003,Chief Engineer,2026-02-01,250,Compliant,Valid
+C0035,V003,Chief Officer,2025-11-09,18,Compliant,Valid
+C0036,V003,Second Engineer,2025-09-23,103,Compliant,Valid
+C0037,V004,Master,2025-08-28,197,Compliant,Valid
+C0038,V004,Chief Engineer,2024-05-31,221,Compliant,Valid
+C0039,V004,Chief Officer,2025-04-21,280,Compliant,Valid
+C0040,V004,Second Engineer,2025-03-15,255,Compliant,Valid
+C0041,V004,ETO,2026-03-01,256,Compliant,Valid
+C0042,V004,AB,2023-12-25,225,Compliant,Valid
+C0043,V004,Oiler,2024-12-17,151,Compliant,Valid
+C0044,V004,Cook,2025-08-13,193,Compliant,Valid
+C0045,V004,Master,2026-05-31,64,Compliant,Valid
+C0046,V004,Chief Engineer,2024-11-14,220,Compliant,Valid
+C0047,V004,Chief Officer,2026-07-23,192,Compliant,Valid
+C0048,V004,Second Engineer,2025-06-27,28,Compliant,Valid
+C0049,V005,Master,2026-07-29,31,Compliant,Valid
+C0050,V005,Chief Engineer,2025-09-27,216,Compliant,Valid
+C0051,V005,Chief Officer,2026-04-19,242,Compliant,Valid
+C0052,V005,Second Engineer,2024-09-25,25,Compliant,Valid
+C0053,V005,ETO,2026-01-18,259,Compliant,Valid
+C0054,V005,AB,2024-01-21,160,Compliant,Valid
+C0055,V005,Oiler,2024-06-04,300,Compliant,Valid
+C0056,V005,Cook,2025-11-26,190,Compliant,Valid
+C0057,V005,Master,2025-06-13,168,Compliant,Valid
+C0058,V005,Chief Engineer,2024-10-02,284,Compliant,Valid
+C0059,V005,Chief Officer,2026-01-11,39,Compliant,Valid
+C0060,V005,Second Engineer,2024-08-13,124,Compliant,Valid
+C0061,V006,Master,2026-08-03,57,Compliant,Valid
+C0062,V006,Chief Engineer,2025-07-23,284,Compliant,Valid
+C0063,V006,Chief Officer,2025-08-12,275,Compliant,Valid
+C0064,V006,Second Engineer,2025-04-26,81,Compliant,Valid
+C0065,V006,ETO,2024-01-07,135,Compliant,Valid
+C0066,V006,AB,2024-03-06,279,Compliant,Valid
+C0067,V006,Oiler,2026-03-26,278,Compliant,Valid
+C0068,V006,Cook,2025-11-03,93,Compliant,Valid
+C0069,V006,Master,2026-05-22,49,Compliant,Valid
+C0070,V006,Chief Engineer,2025-09-23,175,Compliant,Valid
+C0071,V006,Chief Officer,2025-10-24,220,Compliant,Valid
+C0072,V006,Second Engineer,2025-02-21,63,Compliant,Valid
+C0073,V007,Master,2025-10-09,19,Compliant,Valid
+C0074,V007,Chief Engineer,2024-04-17,290,Compliant,Valid
+C0075,V007,Chief Officer,2026-05-18,179,Compliant,Valid
+C0076,V007,Second Engineer,2026-02-24,48,Compliant,Valid
+C0077,V007,ETO,2026-04-29,200,Compliant,Valid
+C0078,V007,AB,2025-05-04,286,Compliant,Valid
+C0079,V007,Oiler,2024-01-11,122,Compliant,Valid
+C0080,V007,Cook,2025-02-03,264,Compliant,Valid
+C0081,V007,Master,2025-11-15,75,Compliant,Valid
+C0082,V007,Chief Engineer,2024-07-17,44,Compliant,Valid
+C0083,V007,Chief Officer,2025-03-21,97,Compliant,Valid
+C0084,V007,Second Engineer,2025-09-01,212,Compliant,Valid
+C0085,V008,Master,2024-06-20,111,Compliant,Valid
+C0086,V008,Chief Engineer,2024-08-02,23,Compliant,Valid
+C0087,V008,Chief Officer,2025-06-17,134,Compliant,Valid
+C0088,V008,Second Engineer,2025-12-09,193,Compliant,Valid
+C0089,V008,ETO,2025-12-06,68,Compliant,Valid
+C0090,V008,AB,2024-04-20,193,Compliant,Valid
+C0091,V008,Oiler,2024-09-24,123,Compliant,Valid
+C0092,V008,Cook,2025-04-28,142,Compliant,Valid
+C0093,V008,Master,2025-01-27,32,Compliant,Valid
+C0094,V008,Chief Engineer,2025-07-14,294,Compliant,Valid
+C0095,V008,Chief Officer,2024-07-10,277,Compliant,Valid
+C0096,V008,Second Engineer,2026-06-23,282,Compliant,Valid
+C0097,V009,Master,2025-06-18,279,Compliant,Valid
+C0098,V009,Chief Engineer,2026-06-20,48,Compliant,Valid
+C0099,V009,Chief Officer,2024-12-05,92,Compliant,Valid
+C0100,V009,Second Engineer,2025-07-19,27,Compliant,Valid
+C0101,V009,ETO,2026-06-13,212,Compliant,Valid
+C0102,V009,AB,2024-04-30,199,Compliant,Valid
+C0103,V009,Oiler,2025-11-23,280,Compliant,Valid
+C0104,V009,Cook,2024-04-25,248,Compliant,Valid
+C0105,V009,Master,2024-01-10,136,Compliant,Valid
+C0106,V009,Chief Engineer,2025-08-22,45,Compliant,Valid
+C0107,V009,Chief Officer,2026-07-24,149,Compliant,Valid
+C0108,V009,Second Engineer,2026-07-05,103,Compliant,Valid
+C0109,V010,Master,2025-08-31,279,Compliant,Valid
+C0110,V010,Chief Engineer,2025-03-14,289,Compliant,Valid
+C0111,V010,Chief Officer,2024-05-05,18,Compliant,Valid
+C0112,V010,Second Engineer,2024-02-24,127,Compliant,Valid
+C0113,V010,ETO,2024-02-06,251,Compliant,Valid
+C0114,V010,AB,2026-03-25,100,Compliant,Valid
+C0115,V010,Oiler,2025-08-24,168,Compliant,Valid
+C0116,V010,Cook,2026-07-29,108,Compliant,Valid
+C0117,V010,Master,2024-04-26,294,Compliant,Valid
+C0118,V010,Chief Engineer,2024-04-25,215,Compliant,Valid
+C0119,V010,Chief Officer,2025-01-27,256,Compliant,Valid
+C0120,V010,Second Engineer,2024-04-17,110,Compliant,Valid
+C0121,V011,Master,2024-09-30,285,Compliant,Valid
+C0122,V011,Chief Engineer,2025-07-08,32,Compliant,Valid
+C0123,V011,Chief Officer,2024-07-22,156,Compliant,Valid
+C0124,V011,Second Engineer,2026-07-11,118,Compliant,Valid
+C0125,V011,ETO,2024-03-20,212,Compliant,Valid
+C0126,V011,AB,2024-05-05,122,Compliant,Valid
+C0127,V011,Oiler,2025-11-24,46,Compliant,Valid
+C0128,V011,Cook,2026-03-23,76,Compliant,Valid
+C0129,V011,Master,2026-01-22,70,Compliant,Valid
+C0130,V011,Chief Engineer,2024-01-05,116,Compliant,Valid
+C0131,V011,Chief Officer,2023-12-08,175,Compliant,Valid
+C0132,V011,Second Engineer,2025-10-21,168,Compliant,Valid
+C0133,V012,Master,2025-01-31,281,Compliant,Valid
+C0134,V012,Chief Engineer,2025-09-20,243,Compliant,Valid
+C0135,V012,Chief Officer,2024-07-11,206,Compliant,Valid
+C0136,V012,Second Engineer,2026-02-07,87,Compliant,Valid
+C0137,V012,ETO,2024-05-04,173,Compliant,Valid
+C0138,V012,AB,2024-12-02,204,Compliant,Valid
+C0139,V012,Oiler,2025-08-06,239,Compliant,Valid
+C0140,V012,Cook,2023-12-19,255,Compliant,Valid
+C0141,V012,Master,2024-03-08,292,Compliant,Valid
+C0142,V012,Chief Engineer,2025-06-04,147,Compliant,Valid
+C0143,V012,Chief Officer,2024-07-02,108,Compliant,Valid
+C0144,V012,Second Engineer,2023-12-25,135,Compliant,Valid
+C0145,V013,Master,2024-05-31,231,Compliant,Valid
+C0146,V013,Chief Engineer,2025-05-20,270,Compliant,Valid
+C0147,V013,Chief Officer,2024-12-06,121,Compliant,Valid
+C0148,V013,Second Engineer,2024-10-03,132,Compliant,Valid
+C0149,V013,ETO,2024-07-13,241,Compliant,Valid
+C0150,V013,AB,2024-05-28,27,Compliant,Valid
+C0151,V013,Oiler,2023-12-20,289,Compliant,Valid
+C0152,V013,Cook,2025-12-10,256,Compliant,Valid
+C0153,V013,Master,2024-09-29,57,Compliant,Valid
+C0154,V013,Chief Engineer,2026-03-27,152,Compliant,Valid
+C0155,V013,Chief Officer,2025-05-26,118,Compliant,Valid
+C0156,V013,Second Engineer,2024-10-21,192,Compliant,Valid
+C0157,V014,Master,2026-02-14,143,Compliant,Valid
+C0158,V014,Chief Engineer,2025-02-27,257,Compliant,Valid
+C0159,V014,Chief Officer,2024-03-12,33,Compliant,Valid
+C0160,V014,Second Engineer,2024-08-27,52,Compliant,Valid
+C0161,V014,ETO,2024-02-21,191,Compliant,Valid
+C0162,V014,AB,2025-11-27,207,Compliant,Valid
+C0163,V014,Oiler,2025-04-25,31,Compliant,Valid
+C0164,V014,Cook,2025-03-05,248,Compliant,Valid
+C0165,V014,Master,2024-12-09,125,Compliant,Valid
+C0166,V014,Chief Engineer,2024-06-26,181,Compliant,Valid
+C0167,V014,Chief Officer,2024-12-09,185,Compliant,Valid
+C0168,V014,Second Engineer,2025-02-21,216,Compliant,Valid
+C0169,V015,Master,2024-03-26,84,Compliant,Valid
+C0170,V015,Chief Engineer,2024-07-02,214,Compliant,Valid
+C0171,V015,Chief Officer,2025-09-21,32,Compliant,Valid
+C0172,V015,Second Engineer,2026-07-13,137,Compliant,Valid
+C0173,V015,ETO,2026-07-13,147,Compliant,Valid
+C0174,V015,AB,2025-08-26,190,Compliant,Valid
+C0175,V015,Oiler,2025-09-23,157,Compliant,Valid
+C0176,V015,Cook,2025-11-30,166,Compliant,Valid
+C0177,V015,Master,2025-05-14,143,Compliant,Valid
+C0178,V015,Chief Engineer,2024-11-03,138,Compliant,Valid
+C0179,V015,Chief Officer,2023-12-11,231,Compliant,Valid
+C0180,V015,Second Engineer,2026-01-19,237,Compliant,Valid
+C0181,V016,Master,2024-05-19,63,Compliant,Valid
+C0182,V016,Chief Engineer,2025-05-01,146,Compliant,Valid
+C0183,V016,Chief Officer,2024-03-09,144,Compliant,Valid
+C0184,V016,Second Engineer,2024-06-11,256,Compliant,Valid
+C0185,V016,ETO,2024-08-23,88,Compliant,Valid
+C0186,V016,AB,2024-08-12,38,Compliant,Valid
+C0187,V016,Oiler,2026-02-20,46,Compliant,Valid
+C0188,V016,Cook,2025-12-26,163,Compliant,Valid
+C0189,V016,Master,2026-02-20,130,Compliant,Valid
+C0190,V016,Chief Engineer,2024-05-05,234,Compliant,Valid
+C0191,V016,Chief Officer,2024-09-13,87,Compliant,Valid
+C0192,V016,Second Engineer,2025-06-07,106,Compliant,Valid
+C0193,V017,Master,2024-04-24,129,Compliant,Valid
+C0194,V017,Chief Engineer,2025-09-14,178,Compliant,Valid
+C0195,V017,Chief Officer,2024-06-28,103,Compliant,Valid
+C0196,V017,Second Engineer,2025-03-07,151,Compliant,Valid
+C0197,V017,ETO,2025-01-13,57,Compliant,Valid
+C0198,V017,AB,2025-02-13,244,Compliant,Valid
+C0199,V017,Oiler,2024-05-14,39,Compliant,Valid
+C0200,V017,Cook,2024-11-14,104,Compliant,Valid
+C0201,V017,Master,2026-02-17,241,Compliant,Valid
+C0202,V017,Chief Engineer,2025-06-01,83,Compliant,Valid
+C0203,V017,Chief Officer,2026-07-26,75,Compliant,Valid
+C0204,V017,Second Engineer,2025-07-31,213,Compliant,Valid
+C0205,V018,Master,2024-06-02,211,Compliant,Valid
+C0206,V018,Chief Engineer,2024-09-08,165,Compliant,Valid
+C0207,V018,Chief Officer,2024-04-21,180,Compliant,Valid
+C0208,V018,Second Engineer,2025-11-06,248,Compliant,Valid
+C0209,V018,ETO,2025-12-03,71,Compliant,Valid
+C0210,V018,AB,2024-10-14,83,Compliant,Valid
+C0211,V018,Oiler,2024-06-22,122,Compliant,Valid
+C0212,V018,Cook,2026-07-26,270,Compliant,Valid
+C0213,V018,Master,2024-12-09,37,Compliant,Valid
+C0214,V018,Chief Engineer,2026-02-13,230,Compliant,Valid
+C0215,V018,Chief Officer,2025-03-23,239,Compliant,Valid
+C0216,V018,Second Engineer,2025-10-10,225,Compliant,Valid
+C0217,V019,Master,2024-07-02,33,Compliant,Valid
+C0218,V019,Chief Engineer,2026-06-06,76,Compliant,Valid
+C0219,V019,Chief Officer,2026-05-29,43,Compliant,Valid
+C0220,V019,Second Engineer,2025-02-05,82,Compliant,Valid
+C0221,V019,ETO,2024-12-25,270,Compliant,Valid
+C0222,V019,AB,2024-05-25,154,Compliant,Valid
+C0223,V019,Oiler,2026-01-14,222,Compliant,Valid
+C0224,V019,Cook,2025-11-07,242,Compliant,Valid
+C0225,V019,Master,2024-04-26,77,Compliant,Valid
+C0226,V019,Chief Engineer,2026-03-06,225,Compliant,Valid
+C0227,V019,Chief Officer,2024-07-07,135,Compliant,Valid
+C0228,V019,Second Engineer,2025-10-25,201,Compliant,Valid
+C0229,V020,Master,2025-03-15,166,Compliant,Valid
+C0230,V020,Chief Engineer,2024-04-10,186,Compliant,Valid
+C0231,V020,Chief Officer,2024-07-20,138,Compliant,Valid
+C0232,V020,Second Engineer,2024-08-16,286,Compliant,Valid
+C0233,V020,ETO,2026-07-02,65,Compliant,Valid
+C0234,V020,AB,2025-11-24,45,Compliant,Valid
+C0235,V020,Oiler,2025-10-14,82,Compliant,Valid
+C0236,V020,Cook,2026-04-27,162,Compliant,Valid
+C0237,V020,Master,2025-10-19,174,Compliant,Valid
+C0238,V020,Chief Engineer,2025-09-04,295,Compliant,Valid
+C0239,V020,Chief Officer,2024-11-01,83,Compliant,Valid
+C0240,V020,Second Engineer,2026-05-19,120,Compliant,Valid

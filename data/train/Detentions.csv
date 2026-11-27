@@ -1,0 +1,13 @@
+inspection_id,vessel_id,detention_date,detention_reason
+INS0004,V001,2025-06-29,Critical fire safety and emergency machinery deficiencies
+INS0016,V004,2025-05-26,Repeated navigation and safety deficiencies
+INS0085,V021,2025-03-15,Repeated fire safety deficiencies
+INS0091,V022,2025-03-15,Repeated fire safety deficiencies
+INS0097,V023,2025-03-15,Repeated fire safety deficiencies
+INS0103,V024,2025-03-15,Repeated fire safety deficiencies
+INS0109,V025,2025-03-15,Repeated fire safety deficiencies
+INS0115,V026,2025-03-15,Repeated fire safety deficiencies
+INS0121,V027,2025-03-15,Repeated fire safety deficiencies
+INS0127,V028,2025-03-15,Repeated fire safety deficiencies
+INS0133,V029,2025-03-15,Repeated fire safety deficiencies
+INS0139,V030,2025-03-15,Repeated fire safety deficiencies

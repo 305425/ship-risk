@@ -1,0 +1,9 @@
+.venv
+tests
+**/__pycache__
+.pytest_cache
+*.egg-info
+.chainlit
+.files
+reports
+mlflow

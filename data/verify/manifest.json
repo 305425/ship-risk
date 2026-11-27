@@ -1,0 +1,362 @@
+[
+  {
+    "vessel_id": "V021",
+    "vessel_name": "MV Orion",
+    "profile": "chronic",
+    "inspection_id": "INS0086",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V022",
+    "vessel_name": "MV Pegasus",
+    "profile": "chronic",
+    "inspection_id": "INS0092",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V023",
+    "vessel_name": "MV Nimbus",
+    "profile": "chronic",
+    "inspection_id": "INS0098",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V024",
+    "vessel_name": "MV Cascade",
+    "profile": "chronic",
+    "inspection_id": "INS0104",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V025",
+    "vessel_name": "MV Harbor",
+    "profile": "chronic",
+    "inspection_id": "INS0110",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V026",
+    "vessel_name": "MV Keel",
+    "profile": "chronic",
+    "inspection_id": "INS0116",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V027",
+    "vessel_name": "MV Mariner",
+    "profile": "chronic",
+    "inspection_id": "INS0122",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V028",
+    "vessel_name": "MV Summit",
+    "profile": "chronic",
+    "inspection_id": "INS0128",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V029",
+    "vessel_name": "MV Beacon",
+    "profile": "chronic",
+    "inspection_id": "INS0134",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V030",
+    "vessel_name": "MV Cinder",
+    "profile": "chronic",
+    "inspection_id": "INS0140",
+    "inspection_date": "2025-09-15",
+    "outcome": "Detained",
+    "label": 1
+  },
+  {
+    "vessel_id": "V031",
+    "vessel_name": "MV Drift",
+    "profile": "emerging",
+    "inspection_id": "INS0146",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V032",
+    "vessel_name": "MV Elm",
+    "profile": "emerging",
+    "inspection_id": "INS0152",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V033",
+    "vessel_name": "MV Fathom",
+    "profile": "emerging",
+    "inspection_id": "INS0158",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V034",
+    "vessel_name": "MV Gale",
+    "profile": "emerging",
+    "inspection_id": "INS0164",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V035",
+    "vessel_name": "MV Herald",
+    "profile": "emerging",
+    "inspection_id": "INS0170",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V036",
+    "vessel_name": "MV Iris",
+    "profile": "emerging",
+    "inspection_id": "INS0176",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V037",
+    "vessel_name": "MV Juniper",
+    "profile": "emerging",
+    "inspection_id": "INS0182",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V038",
+    "vessel_name": "MV Kestrel",
+    "profile": "emerging",
+    "inspection_id": "INS0188",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V039",
+    "vessel_name": "MV Lumen",
+    "profile": "emerging",
+    "inspection_id": "INS0194",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V040",
+    "vessel_name": "MV Mast",
+    "profile": "emerging",
+    "inspection_id": "INS0200",
+    "inspection_date": "2025-09-15",
+    "outcome": "Major Deficiencies",
+    "label": 1
+  },
+  {
+    "vessel_id": "V041",
+    "vessel_name": "MV North",
+    "profile": "recovered",
+    "inspection_id": "INS0206",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V042",
+    "vessel_name": "MV Osprey",
+    "profile": "recovered",
+    "inspection_id": "INS0212",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V043",
+    "vessel_name": "MV Pilot",
+    "profile": "recovered",
+    "inspection_id": "INS0218",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V044",
+    "vessel_name": "MV Quarry",
+    "profile": "recovered",
+    "inspection_id": "INS0224",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V045",
+    "vessel_name": "MV Reef",
+    "profile": "recovered",
+    "inspection_id": "INS0230",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V046",
+    "vessel_name": "MV Sparrow",
+    "profile": "recovered",
+    "inspection_id": "INS0236",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V047",
+    "vessel_name": "MV Tide",
+    "profile": "recovered",
+    "inspection_id": "INS0242",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V048",
+    "vessel_name": "MV Umber",
+    "profile": "recovered",
+    "inspection_id": "INS0248",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V049",
+    "vessel_name": "MV Vesper",
+    "profile": "clean",
+    "inspection_id": "INS0254",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V050",
+    "vessel_name": "MV Willow",
+    "profile": "clean",
+    "inspection_id": "INS0260",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V051",
+    "vessel_name": "MV Yarrow",
+    "profile": "clean",
+    "inspection_id": "INS0266",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V052",
+    "vessel_name": "MV Zenith",
+    "profile": "clean",
+    "inspection_id": "INS0272",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V053",
+    "vessel_name": "MV Amber",
+    "profile": "clean",
+    "inspection_id": "INS0278",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V054",
+    "vessel_name": "MV Boreal",
+    "profile": "clean",
+    "inspection_id": "INS0284",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V055",
+    "vessel_name": "MV Cedar",
+    "profile": "clean",
+    "inspection_id": "INS0290",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V056",
+    "vessel_name": "MV Drake",
+    "profile": "clean",
+    "inspection_id": "INS0296",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V057",
+    "vessel_name": "MV Ember",
+    "profile": "clean",
+    "inspection_id": "INS0302",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V058",
+    "vessel_name": "MV Flint",
+    "profile": "clean",
+    "inspection_id": "INS0308",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V059",
+    "vessel_name": "MV Grove",
+    "profile": "clean",
+    "inspection_id": "INS0314",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  },
+  {
+    "vessel_id": "V060",
+    "vessel_name": "MV Hearth",
+    "profile": "clean",
+    "inspection_id": "INS0320",
+    "inspection_date": "2025-09-15",
+    "outcome": "No Major Findings",
+    "label": 0
+  }
+]

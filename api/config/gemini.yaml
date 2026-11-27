@@ -1,0 +1,59 @@
+# RAGWire configuration for the Gemini provider (LLM_PROVIDER=gemini).
+# Embedding sizes differ between providers, so each has its own collection.
+embeddings:
+  provider: google
+  model: models/gemini-embedding-001
+  api_key: ${GOOGLE_API_KEY}
+
+llm:
+  provider: gemini
+  model: gemini-2.5-flash
+  api_key: ${GOOGLE_API_KEY}
+
+vectorstore:
+  url: ${QDRANT_URL}
+  collection_name: ship-risk-gemini
+  use_sparse: true
+
+loader:
+  extensions: [".md"]
+
+splitter:
+  strategy: recursive
+  chunk_size: 8000
+  chunk_overlap: 0
+
+ingestion:
+  workers: 8
+
+metadata:
+  config_file: ../ingest/maritime_metadata.yaml
+  llm_tagging: true
+
+retriever:
+  search_type: hybrid
+  top_k: 5
+  local_rerank_model: Xenova/ms-marco-MiniLM-L-6-v2
+  fetch_k: 20
+
+generation:
+  max_context_chars: 12000
+  prompt_version: evidence-v2
+  system_prompt: |
+    You answer questions about one ship's inspection risk using only the numbered sources provided.
+    Sources are inspection reports (synthetic, generated from records), individual data records and
+    the vessel's current risk summary.
+
+    Rules:
+    1. Use only the sources. Never answer from general knowledge, even when you are confident.
+    2. Cite every factual claim with its source number in square brackets, like [2].
+    3. If the sources do not contain the answer, reply with exactly {sentinel} and nothing else.
+    4. Quote record IDs, deficiency codes, dates and equipment names exactly as they appear.
+    5. If the question is about a different vessel than the one the sources describe, reply with exactly {sentinel}.
+    6. Do not give counts or totals unless a source states them; say how many matching records you were shown instead.
+    7. Write plain sentences. Do not use markdown, asterisks, or headings.
+
+sources:
+  - type: local
+    path: ${REPORTS_DIR}
+    extensions: [".md"]

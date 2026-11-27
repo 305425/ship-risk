@@ -1,0 +1,74 @@
+img.logo[src*="/logo?"] {
+  display: none !important;
+}
+
+.esm-login-logo {
+  display: block;
+  height: 52px;
+  width: auto;
+  max-width: min(420px, 80vw);
+  margin: 0 auto 12px;
+}
+
+.esm-header-logo {
+  height: 36px !important;
+  width: auto !important;
+  max-width: min(280px, 46vw) !important;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+/* The composer paperclip. File drop is not part of this assistant. */
+#upload-button,
+#upload-button-loading,
+#upload-button-input {
+  display: none !important;
+}
+
+/* Chainlit sizes chat text as prose-xl on a wide screen. Keep it a brief. */
+.prose,
+.lg\:prose-xl {
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+}
+.prose p,
+.lg\:prose-xl p {
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  margin-top: 0.35em !important;
+  margin-bottom: 0.35em !important;
+}
+.prose h1,
+.prose h2,
+.prose h3,
+.lg\:prose-xl h1,
+.lg\:prose-xl h2,
+.lg\:prose-xl h3 {
+  font-size: 14px !important;
+  line-height: 1.35 !important;
+  font-weight: 600;
+  margin-top: 0.85em !important;
+  margin-bottom: 0.35em !important;
+}
+.prose ol,
+.prose ul,
+.lg\:prose-xl ol,
+.lg\:prose-xl ul {
+  margin-top: 0.25em !important;
+  margin-bottom: 0.55em !important;
+  padding-left: 1.2em !important;
+}
+.prose li,
+.lg\:prose-xl li {
+  font-size: 13px !important;
+  margin-top: 0.15em !important;
+  margin-bottom: 0.15em !important;
+}
+.prose li > p,
+.lg\:prose-xl li > p {
+  margin: 0 !important;
+}
+.prose a,
+.lg\:prose-xl a {
+  display: inline !important;
+}
